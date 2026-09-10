@@ -54,7 +54,7 @@ drive.mount('/content/drive')
 The Drive mount stays for the whole session: data, checkpoints and results
 are always read/written from there
 (`/content/drive/MyDrive/kpk_project/...`), while the code comes from the
-clone above — no more uploading zips by hand or patching code at runtime.
+clone above.
 
 ### Syzygy tablebases
 
@@ -135,9 +135,6 @@ in the Appendix.
   geometry, 1859 tokens (including bishop/knight geometry, needed only for
   promotions), identical by construction across the two domains, a
   precondition for weight merging in M6.
-- **"Non-Markovian."** `tokenizer.py`, docstring: the model's input is the
-  move sequence, not the FEN at every ply — M2 tests state reconstruction,
-  M3/M4/M5 additionally test for a signal that requires look-ahead.
 - **Self-play too easy.** `selfplay.py`: `p_critical_start=0.75` and
   `critical_king_radius=1`, tuned empirically (radius=1 nearly doubles the
   true zugzwang rate compared to radius=2/3); verified on real data: ~19%
@@ -148,8 +145,7 @@ in the Appendix.
 - **M5 needs to show a real causal effect, not just correlation.**
   `patch.py`: isolates a single layer's own marginal contribution (not the
   full accumulated state), since a full overwrite trivially recovers 100%
-  by construction on single-token-difference pairs — see the module
-  docstring.
+  by construction on single-token-difference pairs.
 
 
 
