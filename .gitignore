@@ -17,5 +17,4 @@ syzygy/
 
 # Output e file locali
 *.zip
-*.json
 !manifest.json
