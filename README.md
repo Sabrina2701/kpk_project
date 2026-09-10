@@ -124,8 +124,7 @@ in the Appendix.
 - **From scratch**: follow the full pipeline above (needs a GPU and time,
   especially for the 200k self-play games and the 25 training epochs).
 - **Without regenerating**: the JSON files in `results/` are already in
-  this repository (small text files) and are enough on their own to
-  regenerate every figure in the report; the checkpoints
+  this repository; the checkpoints
   (`checkpoints/best.pt`, `checkpoints_multitask/best.pt`,
   `checkpoints_krk/best.pt`) are on Drive instead, not in the repository —
   contact me for read-only access to the folder.
@@ -134,7 +133,7 @@ in the Appendix.
 
 - **Shared KPK/KRK vocabulary.** `tokenizer.py`: built from pure move
   geometry, 1859 tokens (including bishop/knight geometry, needed only for
-  promotions), identical by construction across the two domains — a
+  promotions), identical by construction across the two domains, a
   precondition for weight merging in M6.
 - **"Non-Markovian."** `tokenizer.py`, docstring: the model's input is the
   move sequence, not the FEN at every ply — M2 tests state reconstruction,
@@ -151,28 +150,8 @@ in the Appendix.
   full accumulated state), since a full overwrite trivially recovers 100%
   by construction on single-token-difference pairs — see the module
   docstring.
-- **Stratification by criticality (M5).** `run_m5_stratified.py`: splits
-  minimal pairs by zugzwang (flip the side to move at the same position,
-  does the winner change?) vs. generic, using the same test already
-  employed in `validate.py`.
 
-## Real bugs found and fixed during the project
 
-- **`tablebase.py`, `best_move_by_dtz`**: a sign error in the tie-break
-  between equally-scored moves, which could lock self-play into infinite
-  cycles in some decisive positions (5.9% of games in a test shard,
-  dropping to 3.9% after a first fix, then eliminated by preferring,
-  among tied-optimal moves, one that doesn't repeat an already-visited
-  position).
-- **`tokenizer.py`**: the first version only generated king/rook/pawn
-  geometry; a diagonal move by a promoted queen (e.g. `g7c3`) crashed
-  training with a `KeyError`.
-- **`run_m5.py` / `m5_pairs.py`**: an inverted WDL sign convention between
-  the target used to build the minimal pairs (perspective of the side that
-  just moved) and the one the readout probes were trained on (perspective
-  of the side moving next) — symptom: probe confidence in the "correct"
-  class was suspiciously low (~0.08-0.18) despite probes independently
-  measured at 90%+ accuracy elsewhere. Fixed by negating `target_class` at
-  the point it is computed; all M5 results in the report are post-fix.
+
 
 
