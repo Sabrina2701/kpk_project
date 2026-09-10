@@ -1,0 +1,21 @@
+# Python and Bytecode
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Checkpoint e Dati (gestiti tramite Google Drive)
+checkpoints/
+checkpoints_*/
+data/
+data_smoke/
+*.pt
+
+# Tabelle Syzygy (scaricate a runtime)
+syzygy/
+*.rtbw
+*.rtbz
+
+# Output e file locali
+*.zip
+*.json
+!manifest.json
