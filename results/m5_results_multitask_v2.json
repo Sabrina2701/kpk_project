@@ -1,0 +1,5331 @@
+{
+  "summary": {
+    "0": {
+      "n_valid": 124,
+      "n_dropped_unstable": 26,
+      "mean": 1.0000000194844911,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0,
+      "frac_above_0.5": 1.0,
+      "mean_clean_conf": 0.8637171542843369,
+      "mean_corrupt_conf": 0.1731614224729991
+    },
+    "2": {
+      "n_valid": 124,
+      "n_dropped_unstable": 26,
+      "mean": 0.04871954572842771,
+      "median": 0.002015156536210135,
+      "q25": 1.0597898626253007e-05,
+      "q75": 0.24846397353104388,
+      "frac_above_0.5": 0.1693548387096774,
+      "mean_clean_conf": 0.8637171542843369,
+      "mean_corrupt_conf": 0.1731614224729991
+    },
+    "3": {
+      "n_valid": 124,
+      "n_dropped_unstable": 26,
+      "mean": 0.1471356146647383,
+      "median": 0.012418500828799426,
+      "q25": 0.00016130023967898967,
+      "q75": 0.25247376372748287,
+      "frac_above_0.5": 0.18548387096774194,
+      "mean_clean_conf": 0.8637171542843369,
+      "mean_corrupt_conf": 0.1731614224729991
+    },
+    "4": {
+      "n_valid": 124,
+      "n_dropped_unstable": 26,
+      "mean": 0.4497108557143286,
+      "median": 0.3525796968491301,
+      "q25": 0.014564021588746775,
+      "q75": 0.9123645460103944,
+      "frac_above_0.5": 0.43548387096774194,
+      "mean_clean_conf": 0.8637171542843369,
+      "mean_corrupt_conf": 0.1731614224729991
+    },
+    "5": {
+      "n_valid": 124,
+      "n_dropped_unstable": 26,
+      "mean": 1.349135973037915,
+      "median": 0.9998838300353559,
+      "q25": 0.9663817794427216,
+      "q75": 1.001724513213454,
+      "frac_above_0.5": 0.8951612903225806,
+      "mean_clean_conf": 0.8637171542843369,
+      "mean_corrupt_conf": 0.1731614224729991
+    }
+  },
+  "per_pair": {
+    "0": [
+      {
+        "clean_conf": 0.999994158744812,
+        "corrupt_conf": 0.01906023733317852,
+        "patched_conf": 0.999994158744812,
+        "denom": 0.9809339214116335,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.7084962129592896,
+        "corrupt_conf": 0.9855072498321533,
+        "patched_conf": 0.7084963321685791,
+        "denom": -0.27701103687286377,
+        "frac_recovered": 0.9999995696587006
+      },
+      {
+        "clean_conf": 0.9962061643600464,
+        "corrupt_conf": 0.0007761984597891569,
+        "patched_conf": 0.9962061643600464,
+        "denom": 0.9954299659002572,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9971298575401306,
+        "corrupt_conf": 0.014882354065775871,
+        "patched_conf": 0.9971298575401306,
+        "denom": 0.9822475034743547,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.20073413848876953,
+        "corrupt_conf": 0.004032258875668049,
+        "patched_conf": 0.20073425769805908,
+        "denom": 0.19670187961310148,
+        "frac_recovered": 1.000000606040419
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 4.96041707265249e-07,
+        "patched_conf": 0.9999934434890747,
+        "denom": 0.9999929474473674,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 1.692784280749038e-05,
+        "corrupt_conf": 0.5948514342308044,
+        "patched_conf": 1.692785917839501e-05,
+        "denom": -0.594834506387997,
+        "frac_recovered": 0.9999999999724782
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.51907123735873e-06,
+        "patched_conf": 0.999998927116394,
+        "denom": 0.9999934080451567,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 1.736032572807744e-05,
+        "patched_conf": 0.9999979734420776,
+        "denom": 0.9999806131163496,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.31532323360443115,
+        "corrupt_conf": 0.001225300831720233,
+        "patched_conf": 0.31532323360443115,
+        "denom": 0.3140979327727109,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999512434005737,
+        "corrupt_conf": 3.9196038414957e-06,
+        "patched_conf": 0.9999512434005737,
+        "denom": 0.9999473237967322,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999716579914093,
+        "corrupt_conf": 0.993343710899353,
+        "patched_conf": 0.999716579914093,
+        "denom": 0.00637286901473999,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 5.29601275047753e-05,
+        "patched_conf": 0.9999995231628418,
+        "denom": 0.999946563035337,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9196568727493286,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.9196568727493286,
+        "denom": 0.5101686418056488,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9987063407897949,
+        "corrupt_conf": 0.9996765851974487,
+        "patched_conf": 0.9987063407897949,
+        "denom": -0.0009702444076538086,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999984502792358,
+        "corrupt_conf": 0.03935999423265457,
+        "patched_conf": 0.9999984502792358,
+        "denom": 0.9606384560465813,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9340134263038635,
+        "corrupt_conf": 0.7830493450164795,
+        "patched_conf": 0.9340134263038635,
+        "denom": 0.15096408128738403,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9768757820129395,
+        "corrupt_conf": 0.9229055643081665,
+        "patched_conf": 0.9768757820129395,
+        "denom": 0.05397021770477295,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 5.106040248392674e-07,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.9999993701866856,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9994508624076843,
+        "corrupt_conf": 0.9979140162467957,
+        "patched_conf": 0.9994508624076843,
+        "denom": 0.0015368461608886719,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 2.9853977139282506e-06,
+        "corrupt_conf": 0.11218808591365814,
+        "patched_conf": 2.9854033982701367e-06,
+        "denom": -0.11218510051594421,
+        "frac_recovered": 0.9999999999493306
+      },
+      {
+        "clean_conf": 0.9969643950462341,
+        "corrupt_conf": 0.7768816351890564,
+        "patched_conf": 0.9969643950462341,
+        "denom": 0.22008275985717773,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999606192111969,
+        "corrupt_conf": 0.9050228595733643,
+        "patched_conf": 0.999606192111969,
+        "denom": 0.09458333253860474,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 0.9996731281280518,
+        "patched_conf": 0.9999986886978149,
+        "denom": 0.0003255605697631836,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9981279969215393,
+        "corrupt_conf": 0.014097815379500389,
+        "patched_conf": 0.9981279969215393,
+        "denom": 0.9840301815420389,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.1555470337043516e-05,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.9999883253203734,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9495097398757935,
+        "corrupt_conf": 0.2019936740398407,
+        "patched_conf": 0.9495097398757935,
+        "denom": 0.7475160658359528,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9992656111717224,
+        "corrupt_conf": 0.6197432279586792,
+        "patched_conf": 0.9992656111717224,
+        "denom": 0.3795223832130432,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.4183483371161856e-06,
+        "patched_conf": 0.999998927116394,
+        "denom": 0.9999935087680569,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 0.00030703205266036093,
+        "patched_conf": 0.9999990463256836,
+        "denom": 0.9996920142730232,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 3.904861785031244e-07,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.999999490304532,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999669790267944,
+        "corrupt_conf": 7.498951890738681e-05,
+        "patched_conf": 0.9999669790267944,
+        "denom": 0.999891989507887,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999985694885254,
+        "corrupt_conf": 8.29427062853938e-06,
+        "patched_conf": 0.9999985694885254,
+        "denom": 0.9999902752178969,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998028874397278,
+        "corrupt_conf": 0.19323691725730896,
+        "patched_conf": 0.9998028874397278,
+        "denom": 0.8065659701824188,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999281167984009,
+        "corrupt_conf": 0.06627816706895828,
+        "patched_conf": 0.9999281167984009,
+        "denom": 0.9336499497294426,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998465776443481,
+        "corrupt_conf": 0.21834422647953033,
+        "patched_conf": 0.9998465776443481,
+        "denom": 0.7815023511648178,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9964445233345032,
+        "corrupt_conf": 2.1555228158831596e-05,
+        "patched_conf": 0.9964445233345032,
+        "denom": 0.9964229681063443,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999885082244873,
+        "corrupt_conf": 0.9912934899330139,
+        "patched_conf": 0.999885082244873,
+        "denom": 0.00859159231185913,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9651020169258118,
+        "corrupt_conf": 0.0033404668793082237,
+        "patched_conf": 0.9651020169258118,
+        "denom": 0.9617615500465035,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9995232820510864,
+        "corrupt_conf": 0.9989894032478333,
+        "patched_conf": 0.9995232820510864,
+        "denom": 0.0005338788032531738,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 3.5460984690871555e-06,
+        "corrupt_conf": 0.9745261669158936,
+        "patched_conf": 3.546095058482024e-06,
+        "denom": -0.9745226208174245,
+        "frac_recovered": 1.0000000000034999
+      },
+      {
+        "clean_conf": 0.9984357953071594,
+        "corrupt_conf": 3.280673627159558e-05,
+        "patched_conf": 0.9984357953071594,
+        "denom": 0.9984029885708878,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9894724488258362,
+        "corrupt_conf": 0.7965558171272278,
+        "patched_conf": 0.9894726872444153,
+        "denom": 0.1929166316986084,
+        "frac_recovered": 1.000001235863269
+      },
+      {
+        "clean_conf": 0.36824098229408264,
+        "corrupt_conf": 4.868438736593816e-07,
+        "patched_conf": 0.36824098229408264,
+        "denom": 0.368240495450209,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9970199465751648,
+        "corrupt_conf": 0.9928923845291138,
+        "patched_conf": 0.9970199465751648,
+        "denom": 0.004127562046051025,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9985176920890808,
+        "corrupt_conf": 0.8585501909255981,
+        "patched_conf": 0.9985176920890808,
+        "denom": 0.13996750116348267,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9821453094482422,
+        "corrupt_conf": 2.631292090882198e-06,
+        "patched_conf": 0.9821453094482422,
+        "denom": 0.9821426781561513,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9996583461761475,
+        "corrupt_conf": 3.8860791391925886e-05,
+        "patched_conf": 0.9996583461761475,
+        "denom": 0.9996194853847555,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9481333494186401,
+        "corrupt_conf": 0.5032225847244263,
+        "patched_conf": 0.9481333494186401,
+        "denom": 0.44491076469421387,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998337030410767,
+        "corrupt_conf": 0.4273855686187744,
+        "patched_conf": 0.9998337030410767,
+        "denom": 0.5724481344223022,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.997793436050415,
+        "corrupt_conf": 0.001988030271604657,
+        "patched_conf": 0.997793436050415,
+        "denom": 0.9958054057788104,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 4.7650872147642076e-05,
+        "corrupt_conf": 0.9961651563644409,
+        "patched_conf": 4.765091580338776e-05,
+        "denom": -0.9961175054922933,
+        "frac_recovered": 0.9999999999561741
+      },
+      {
+        "clean_conf": 0.7593162059783936,
+        "corrupt_conf": 3.672240382002201e-06,
+        "patched_conf": 0.7593161463737488,
+        "denom": 0.7593125337380116,
+        "frac_recovered": 0.9999999215018295
+      },
+      {
+        "clean_conf": 0.9961769580841064,
+        "corrupt_conf": 9.541969120618887e-06,
+        "patched_conf": 0.9961769580841064,
+        "denom": 0.9961674161149858,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9961330890655518,
+        "corrupt_conf": 2.093929197144462e-06,
+        "patched_conf": 0.9961330890655518,
+        "denom": 0.9961309951363546,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9949100613594055,
+        "corrupt_conf": 4.88206922000245e-07,
+        "patched_conf": 0.9949100613594055,
+        "denom": 0.9949095731524835,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9680280685424805,
+        "corrupt_conf": 0.7365713715553284,
+        "patched_conf": 0.9680280685424805,
+        "denom": 0.2314566969871521,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 3.010199861819274e-06,
+        "patched_conf": 0.9999978542327881,
+        "denom": 0.9999948440329263,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 2.8819241038036125e-07,
+        "patched_conf": 0.9999996423721313,
+        "denom": 0.999999354179721,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 4.429557975527132e-06,
+        "patched_conf": 0.9999986886978149,
+        "denom": 0.9999942591398394,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.831012003909564e-06,
+        "patched_conf": 0.9999992847442627,
+        "denom": 0.9999934537322588,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998611211776733,
+        "corrupt_conf": 0.9989187717437744,
+        "patched_conf": 0.9998611211776733,
+        "denom": 0.0009423494338989258,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.998540997505188,
+        "corrupt_conf": 0.30325019359588623,
+        "patched_conf": 0.998540997505188,
+        "denom": 0.6952908039093018,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.00935766939073801,
+        "corrupt_conf": 6.875675899209455e-05,
+        "patched_conf": 0.009357674047350883,
+        "denom": 0.009288912631745916,
+        "frac_recovered": 1.000000501308717
+      },
+      {
+        "clean_conf": 0.9971494078636169,
+        "corrupt_conf": 0.9905297160148621,
+        "patched_conf": 0.9971494078636169,
+        "denom": 0.006619691848754883,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 0.0005568381166085601,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.9994430426741019,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 4.603443812811747e-07,
+        "patched_conf": 0.9999997615814209,
+        "denom": 0.9999993012370396,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999967098236084,
+        "corrupt_conf": 0.010724429041147232,
+        "patched_conf": 0.999967098236084,
+        "denom": 0.9892426691949368,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.15067258477210999,
+        "corrupt_conf": 3.773506591642217e-07,
+        "patched_conf": 0.15067267417907715,
+        "denom": 0.15067220742145082,
+        "frac_recovered": 1.0000005933872522
+      },
+      {
+        "clean_conf": 0.07867904007434845,
+        "corrupt_conf": 7.315766197280027e-07,
+        "patched_conf": 0.07867910712957382,
+        "denom": 0.07867830849772872,
+        "frac_recovered": 1.0000008522708057
+      },
+      {
+        "clean_conf": 0.041817788034677505,
+        "corrupt_conf": 1.7786189232538163e-07,
+        "patched_conf": 0.041817806661129,
+        "denom": 0.04181761017278518,
+        "frac_recovered": 1.0000004454212332
+      },
+      {
+        "clean_conf": 0.9834596514701843,
+        "corrupt_conf": 0.4625832140445709,
+        "patched_conf": 0.9834596514701843,
+        "denom": 0.5208764374256134,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.94028240442276,
+        "corrupt_conf": 8.817521006676543e-07,
+        "patched_conf": 0.9402822852134705,
+        "denom": 0.9402815226706593,
+        "frac_recovered": 0.9999998732195766
+      },
+      {
+        "clean_conf": 0.984900712966919,
+        "corrupt_conf": 0.9997243285179138,
+        "patched_conf": 0.984900712966919,
+        "denom": -0.014823615550994873,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9842574596405029,
+        "corrupt_conf": 0.4373839497566223,
+        "patched_conf": 0.9842574596405029,
+        "denom": 0.5468735098838806,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.4191018342971802,
+        "corrupt_conf": 5.775332851953863e-07,
+        "patched_conf": 0.41910144686698914,
+        "denom": 0.419101256763895,
+        "frac_recovered": 0.9999990755690068
+      },
+      {
+        "clean_conf": 0.9999568462371826,
+        "corrupt_conf": 2.4608892999822274e-05,
+        "patched_conf": 0.9999568462371826,
+        "denom": 0.9999322373441828,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.2138550579547882,
+        "corrupt_conf": 0.00027115261764265597,
+        "patched_conf": 0.21385504305362701,
+        "denom": 0.21358390533714555,
+        "frac_recovered": 0.9999999302327525
+      },
+      {
+        "clean_conf": 0.9997836947441101,
+        "corrupt_conf": 0.9893823862075806,
+        "patched_conf": 0.9997836947441101,
+        "denom": 0.010401308536529541,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9990099668502808,
+        "corrupt_conf": 0.00011217875726288185,
+        "patched_conf": 0.9990099668502808,
+        "denom": 0.9988977880930179,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.058375369757413864,
+        "corrupt_conf": 0.10583889484405518,
+        "patched_conf": 0.0583752803504467,
+        "denom": -0.04746352508664131,
+        "frac_recovered": 1.000001883698419
+      },
+      {
+        "clean_conf": 0.9803354740142822,
+        "corrupt_conf": 0.00547399977222085,
+        "patched_conf": 0.9803354740142822,
+        "denom": 0.9748614742420614,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999791383743286,
+        "corrupt_conf": 2.89216330884301e-07,
+        "patched_conf": 0.9999791383743286,
+        "denom": 0.9999788491579977,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9960846900939941,
+        "corrupt_conf": 0.7324880957603455,
+        "patched_conf": 0.9960846900939941,
+        "denom": 0.2635965943336487,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 6.196860340423882e-05,
+        "patched_conf": 1.0,
+        "denom": 0.9999380313965958,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 4.92286631015304e-07,
+        "patched_conf": 0.999998927116394,
+        "denom": 0.999998434829763,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999752044677734,
+        "corrupt_conf": 1.5507023363170447e-06,
+        "patched_conf": 0.9999752044677734,
+        "denom": 0.9999736537654371,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9979658126831055,
+        "corrupt_conf": 6.0532797760970425e-06,
+        "patched_conf": 0.9979658126831055,
+        "denom": 0.9979597594033294,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.23258322477340698,
+        "corrupt_conf": 1.0539408776821801e-06,
+        "patched_conf": 0.23258304595947266,
+        "denom": 0.2325821708325293,
+        "frac_recovered": 0.9999992311795282
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 6.1802802520105615e-06,
+        "patched_conf": 0.9999978542327881,
+        "denom": 0.9999916739525361,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999887943267822,
+        "corrupt_conf": 0.6840956211090088,
+        "patched_conf": 0.9999887943267822,
+        "denom": 0.31589317321777344,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9865307211875916,
+        "corrupt_conf": 0.9394267201423645,
+        "patched_conf": 0.9865307211875916,
+        "denom": 0.04710400104522705,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 1.069153938715317e-07,
+        "patched_conf": 0.9999997615814209,
+        "denom": 0.999999654666027,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9995371103286743,
+        "corrupt_conf": 0.450822651386261,
+        "patched_conf": 0.9995371103286743,
+        "denom": 0.5487144589424133,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 0.0036481358110904694,
+        "patched_conf": 0.9999995231628418,
+        "denom": 0.9963513873517513,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9464777708053589,
+        "corrupt_conf": 2.636332283145748e-06,
+        "patched_conf": 0.9464776515960693,
+        "denom": 0.9464751344730757,
+        "frac_recovered": 0.9999998740492114
+      },
+      {
+        "clean_conf": 0.9999948740005493,
+        "corrupt_conf": 0.0010723235318437219,
+        "patched_conf": 0.9999948740005493,
+        "denom": 0.9989225504687056,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9980828762054443,
+        "corrupt_conf": 0.8745058178901672,
+        "patched_conf": 0.9980828762054443,
+        "denom": 0.1235770583152771,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999092817306519,
+        "corrupt_conf": 0.059414081275463104,
+        "patched_conf": 0.9999092817306519,
+        "denom": 0.9404952004551888,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9525880217552185,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.9525880813598633,
+        "denom": 0.5430997908115387,
+        "frac_recovered": 1.000000109748974
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 8.440846613666508e-06,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.9999914399440968,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9974059462547302,
+        "corrupt_conf": 0.007510352414101362,
+        "patched_conf": 0.9974059462547302,
+        "denom": 0.9898955938406289,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9132049083709717,
+        "corrupt_conf": 0.8779352307319641,
+        "patched_conf": 0.913205087184906,
+        "denom": 0.03526967763900757,
+        "frac_recovered": 1.0000050699055476
+      },
+      {
+        "clean_conf": 0.9999164342880249,
+        "corrupt_conf": 0.10147520899772644,
+        "patched_conf": 0.9999164342880249,
+        "denom": 0.8984412252902985,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 0.01948966458439827,
+        "patched_conf": 0.9999934434890747,
+        "denom": 0.9805037789046764,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999969482421875,
+        "corrupt_conf": 0.9928406476974487,
+        "patched_conf": 0.999969482421875,
+        "denom": 0.0071288347244262695,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.997938334941864,
+        "corrupt_conf": 0.9999316930770874,
+        "patched_conf": 0.997938334941864,
+        "denom": -0.0019933581352233887,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9995474219322205,
+        "corrupt_conf": 0.02157892845571041,
+        "patched_conf": 0.9995474219322205,
+        "denom": 0.97796849347651,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999945163726807,
+        "corrupt_conf": 7.436138389493863e-07,
+        "patched_conf": 0.9999945163726807,
+        "denom": 0.9999937727588417,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999518394470215,
+        "corrupt_conf": 5.636460969071777e-07,
+        "patched_conf": 0.9999518394470215,
+        "denom": 0.9999512758009246,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998946189880371,
+        "corrupt_conf": 0.0005852272734045982,
+        "patched_conf": 0.9998946189880371,
+        "denom": 0.9993093917146325,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9967071413993835,
+        "corrupt_conf": 0.9877838492393494,
+        "patched_conf": 0.9967071413993835,
+        "denom": 0.00892329216003418,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998177886009216,
+        "corrupt_conf": 0.07410693913698196,
+        "patched_conf": 0.9998177886009216,
+        "denom": 0.9257108494639397,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9710168838500977,
+        "corrupt_conf": 2.6706591143010883e-06,
+        "patched_conf": 0.9710170030593872,
+        "denom": 0.9710142131909834,
+        "frac_recovered": 1.0000001227678113
+      },
+      {
+        "clean_conf": 0.1155250146985054,
+        "corrupt_conf": 7.237450063257711e-06,
+        "patched_conf": 0.1155250146985054,
+        "denom": 0.11551777724844214,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998879432678223,
+        "corrupt_conf": 0.6786221265792847,
+        "patched_conf": 0.9998879432678223,
+        "denom": 0.3212658166885376,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9977516531944275,
+        "corrupt_conf": 0.9559327363967896,
+        "patched_conf": 0.9977516531944275,
+        "denom": 0.04181891679763794,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.99998939037323,
+        "corrupt_conf": 0.00527404947206378,
+        "patched_conf": 0.99998939037323,
+        "denom": 0.9947153409011662,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9712470173835754,
+        "corrupt_conf": 0.9595231413841248,
+        "patched_conf": 0.9712470173835754,
+        "denom": 0.011723875999450684,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.5871012210845947,
+        "corrupt_conf": 7.708531484240666e-06,
+        "patched_conf": 0.58710116147995,
+        "denom": 0.5870935125531105,
+        "frac_recovered": 0.999999898475041
+      },
+      {
+        "clean_conf": 0.54350745677948,
+        "corrupt_conf": 0.833796501159668,
+        "patched_conf": 0.5435072183609009,
+        "denom": -0.290289044380188,
+        "frac_recovered": 1.0000008213144234
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 0.9997084736824036,
+        "patched_conf": 0.9999996423721313,
+        "denom": 0.0002911686897277832,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.5184811949729919,
+        "corrupt_conf": 0.012963160872459412,
+        "patched_conf": 0.5184811949729919,
+        "denom": 0.5055180341005325,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9991565942764282,
+        "corrupt_conf": 8.46127477416303e-06,
+        "patched_conf": 0.9991565942764282,
+        "denom": 0.9991481330016541,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.999981164932251,
+        "corrupt_conf": 5.16009595230571e-06,
+        "patched_conf": 0.999981164932251,
+        "denom": 0.9999760048362987,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999988079071045,
+        "corrupt_conf": 4.048473329021363e-06,
+        "patched_conf": 0.9999988079071045,
+        "denom": 0.9999947594337755,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 8.776195272730547e-07,
+        "patched_conf": 0.9999990463256836,
+        "denom": 0.9999981687061563,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 5.812364634039113e-07,
+        "patched_conf": 0.9999979734420776,
+        "denom": 0.9999973922056142,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.988244891166687,
+        "corrupt_conf": 0.6452434659004211,
+        "patched_conf": 0.988244891166687,
+        "denom": 0.34300142526626587,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9985184073448181,
+        "corrupt_conf": 0.9995434880256653,
+        "patched_conf": 0.9985184073448181,
+        "denom": -0.001025080680847168,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9990379810333252,
+        "corrupt_conf": 0.0005027009174227715,
+        "patched_conf": 0.9990379810333252,
+        "denom": 0.9985352801159024,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9832346439361572,
+        "corrupt_conf": 0.9435730576515198,
+        "patched_conf": 0.9832346439361572,
+        "denom": 0.03966158628463745,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9998157620429993,
+        "corrupt_conf": 0.000113057998532895,
+        "patched_conf": 0.9998157620429993,
+        "denom": 0.9997027040444664,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.0021997939329594374,
+        "corrupt_conf": 0.0009983007330447435,
+        "patched_conf": 0.0021997918374836445,
+        "denom": 0.0012014931999146938,
+        "frac_recovered": 0.9999982559403641
+      },
+      {
+        "clean_conf": 0.8034820556640625,
+        "corrupt_conf": 0.9914548397064209,
+        "patched_conf": 0.8034821152687073,
+        "denom": -0.1879727840423584,
+        "frac_recovered": 0.9999996829081131
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.82638961077464e-07,
+        "patched_conf": 0.9999992847442627,
+        "denom": 0.9999987021053016,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.15644590556621552,
+        "corrupt_conf": 0.00016483223589602858,
+        "patched_conf": 0.15644602477550507,
+        "denom": 0.1562810733303195,
+        "frac_recovered": 1.000000762787758
+      },
+      {
+        "clean_conf": 0.9999903440475464,
+        "corrupt_conf": 4.103368155483622e-06,
+        "patched_conf": 0.9999903440475464,
+        "denom": 0.9999862406793909,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.40091025829315186,
+        "corrupt_conf": 9.113506393987336e-07,
+        "patched_conf": 0.4009106457233429,
+        "denom": 0.40090934694251246,
+        "frac_recovered": 1.000000966378544
+      },
+      {
+        "clean_conf": 0.9806011915206909,
+        "corrupt_conf": 6.484330697276164e-06,
+        "patched_conf": 0.9806011915206909,
+        "denom": 0.9805947071899936,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9877712726593018,
+        "corrupt_conf": 1.8361935872235335e-05,
+        "patched_conf": 0.9877712726593018,
+        "denom": 0.9877529107234295,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.8950383067131042,
+        "corrupt_conf": 0.9898876547813416,
+        "patched_conf": 0.8950383067131042,
+        "denom": -0.0948493480682373,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 0.0007457449100911617,
+        "patched_conf": 1.0,
+        "denom": 0.9992542550899088,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 2.555038236096152e-06,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.9999973257524744,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.3092170547679416e-06,
+        "patched_conf": 0.9999998807907104,
+        "denom": 0.9999985715736557,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.22623030841350555,
+        "corrupt_conf": 2.7808880531665636e-06,
+        "patched_conf": 0.2262304127216339,
+        "denom": 0.2262275275254524,
+        "frac_recovered": 1.0000004610761983
+      },
+      {
+        "clean_conf": 0.9989880919456482,
+        "corrupt_conf": 0.07442785054445267,
+        "patched_conf": 0.9989880919456482,
+        "denom": 0.9245602414011955,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9980669617652893,
+        "corrupt_conf": 0.9998251795768738,
+        "patched_conf": 0.9980669617652893,
+        "denom": -0.0017582178115844727,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.9977255463600159,
+        "corrupt_conf": 0.396145224571228,
+        "patched_conf": 0.9977255463600159,
+        "denom": 0.6015803217887878,
+        "frac_recovered": 1.0
+      },
+      {
+        "clean_conf": 0.11440800875425339,
+        "corrupt_conf": 2.1190148800087627e-06,
+        "patched_conf": 0.11440787464380264,
+        "denom": 0.11440588973937338,
+        "frac_recovered": 0.9999988277662011
+      }
+    ],
+    "2": [
+      {
+        "clean_conf": 0.999994158744812,
+        "corrupt_conf": 0.01906023733317852,
+        "patched_conf": 0.321870893239975,
+        "denom": 0.9809339214116335,
+        "frac_recovered": 0.3086962835080985
+      },
+      {
+        "clean_conf": 0.7084962129592896,
+        "corrupt_conf": 0.9855072498321533,
+        "patched_conf": 0.9888620972633362,
+        "denom": -0.27701103687286377,
+        "frac_recovered": -0.012110880017833343
+      },
+      {
+        "clean_conf": 0.9962061643600464,
+        "corrupt_conf": 0.0007761984597891569,
+        "patched_conf": 0.002189934952184558,
+        "denom": 0.9954299659002572,
+        "frac_recovered": 0.00142022697811476
+      },
+      {
+        "clean_conf": 0.9971298575401306,
+        "corrupt_conf": 0.014882354065775871,
+        "patched_conf": 0.26746243238449097,
+        "denom": 0.9822475034743547,
+        "frac_recovered": 0.2571450448337125
+      },
+      {
+        "clean_conf": 0.20073413848876953,
+        "corrupt_conf": 0.004032258875668049,
+        "patched_conf": 0.020078223198652267,
+        "denom": 0.19670187961310148,
+        "frac_recovered": 0.08157504317978802
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 4.96041707265249e-07,
+        "patched_conf": 4.254284249327611e-06,
+        "denom": 0.9999929474473674,
+        "frac_recovered": 3.7582690474526266e-06
+      },
+      {
+        "clean_conf": 1.692784280749038e-05,
+        "corrupt_conf": 0.5948514342308044,
+        "patched_conf": 0.8430348634719849,
+        "denom": -0.594834506387997,
+        "frac_recovered": -0.41723105599273363
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.51907123735873e-06,
+        "patched_conf": 0.033516623079776764,
+        "denom": 0.9999934080451567,
+        "frac_recovered": 0.033511324913679974
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 1.736032572807744e-05,
+        "patched_conf": 0.037469249218702316,
+        "denom": 0.9999806131163496,
+        "frac_recovered": 0.03745261498246331
+      },
+      {
+        "clean_conf": 0.31532323360443115,
+        "corrupt_conf": 0.001225300831720233,
+        "patched_conf": 0.06441181898117065,
+        "denom": 0.3140979327727109,
+        "frac_recovered": 0.20116820760859244
+      },
+      {
+        "clean_conf": 0.9999512434005737,
+        "corrupt_conf": 3.9196038414957e-06,
+        "patched_conf": 9.995199070544913e-05,
+        "denom": 0.9999473237967322,
+        "frac_recovered": 9.603744575196719e-05
+      },
+      {
+        "clean_conf": 0.999716579914093,
+        "corrupt_conf": 0.993343710899353,
+        "patched_conf": 0.9900105595588684,
+        "denom": 0.00637286901473999,
+        "frac_recovered": -0.523022100842694
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 5.29601275047753e-05,
+        "patched_conf": 0.0005411746096797287,
+        "denom": 0.999946563035337,
+        "frac_recovered": 0.00048824057226916085
+      },
+      {
+        "clean_conf": 0.9196568727493286,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.5347704887390137,
+        "denom": 0.5101686418056488,
+        "frac_recovered": 0.24557028309682102
+      },
+      {
+        "clean_conf": 0.9987063407897949,
+        "corrupt_conf": 0.9996765851974487,
+        "patched_conf": 0.9997273087501526,
+        "denom": -0.0009702444076538086,
+        "frac_recovered": -0.052279149772699346
+      },
+      {
+        "clean_conf": 0.9999984502792358,
+        "corrupt_conf": 0.03935999423265457,
+        "patched_conf": 0.04911931976675987,
+        "denom": 0.9606384560465813,
+        "frac_recovered": 0.01015920763183779
+      },
+      {
+        "clean_conf": 0.9340134263038635,
+        "corrupt_conf": 0.7830493450164795,
+        "patched_conf": 0.8296548128128052,
+        "denom": 0.15096408128738403,
+        "frac_recovered": 0.3087189177643177
+      },
+      {
+        "clean_conf": 0.9768757820129395,
+        "corrupt_conf": 0.9229055643081665,
+        "patched_conf": 0.3190303444862366,
+        "denom": 0.05397021770477295,
+        "frac_recovered": -11.18904546809944
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 5.106040248392674e-07,
+        "patched_conf": 0.35341647267341614,
+        "denom": 0.9999993701866856,
+        "frac_recovered": 0.3534161846556099
+      },
+      {
+        "clean_conf": 0.9994508624076843,
+        "corrupt_conf": 0.9979140162467957,
+        "patched_conf": 0.9990746974945068,
+        "denom": 0.0015368461608886719,
+        "frac_recovered": 0.7552358051504809
+      },
+      {
+        "clean_conf": 2.9853977139282506e-06,
+        "corrupt_conf": 0.11218808591365814,
+        "patched_conf": 0.4998784363269806,
+        "denom": -0.11218510051594421,
+        "frac_recovered": -3.455809627395416
+      },
+      {
+        "clean_conf": 0.9969643950462341,
+        "corrupt_conf": 0.7768816351890564,
+        "patched_conf": 0.9208828210830688,
+        "denom": 0.22008275985717773,
+        "frac_recovered": 0.6543047078629045
+      },
+      {
+        "clean_conf": 0.999606192111969,
+        "corrupt_conf": 0.9050228595733643,
+        "patched_conf": 0.9951353669166565,
+        "denom": 0.09458333253860474,
+        "frac_recovered": 0.9527313631766178
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 0.9996731281280518,
+        "patched_conf": 0.9996733665466309,
+        "denom": 0.0003255605697631836,
+        "frac_recovered": 0.0007323324789454412
+      },
+      {
+        "clean_conf": 0.9981279969215393,
+        "corrupt_conf": 0.014097815379500389,
+        "patched_conf": 0.10270226001739502,
+        "denom": 0.9840301815420389,
+        "frac_recovered": 0.09004240550736536
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.1555470337043516e-05,
+        "patched_conf": 4.773039108840749e-05,
+        "denom": 0.9999883253203734,
+        "frac_recovered": 3.617534308690489e-05
+      },
+      {
+        "clean_conf": 0.9495097398757935,
+        "corrupt_conf": 0.2019936740398407,
+        "patched_conf": 0.4664992392063141,
+        "denom": 0.7475160658359528,
+        "frac_recovered": 0.35384599375890985
+      },
+      {
+        "clean_conf": 0.9992656111717224,
+        "corrupt_conf": 0.6197432279586792,
+        "patched_conf": 0.960870087146759,
+        "denom": 0.3795223832130432,
+        "frac_recovered": 0.8988319906196146
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.4183483371161856e-06,
+        "patched_conf": 2.0559667973429896e-05,
+        "denom": 0.9999935087680569,
+        "frac_recovered": 1.5141417922769394e-05
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 0.00030703205266036093,
+        "patched_conf": 0.0006978823803365231,
+        "denom": 0.9996920142730232,
+        "frac_recovered": 0.00039097074108408156
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 3.904861785031244e-07,
+        "patched_conf": 1.6228561889874982e-06,
+        "denom": 0.999999490304532,
+        "frac_recovered": 1.2323706386181033e-06
+      },
+      {
+        "clean_conf": 0.9999669790267944,
+        "corrupt_conf": 7.498951890738681e-05,
+        "patched_conf": 0.00020482912077568471,
+        "denom": 0.999891989507887,
+        "frac_recovered": 0.00012985362742249846
+      },
+      {
+        "clean_conf": 0.9999985694885254,
+        "corrupt_conf": 8.29427062853938e-06,
+        "patched_conf": 0.003101811045780778,
+        "denom": 0.9999902752178969,
+        "frac_recovered": 0.0030935468592213702
+      },
+      {
+        "clean_conf": 0.9998028874397278,
+        "corrupt_conf": 0.19323691725730896,
+        "patched_conf": 0.6379704475402832,
+        "denom": 0.8065659701824188,
+        "frac_recovered": 0.5513913885833667
+      },
+      {
+        "clean_conf": 0.9999281167984009,
+        "corrupt_conf": 0.06627816706895828,
+        "patched_conf": 0.21222785115242004,
+        "denom": 0.9336499497294426,
+        "frac_recovered": 0.15632163224102966
+      },
+      {
+        "clean_conf": 0.9998465776443481,
+        "corrupt_conf": 0.21834422647953033,
+        "patched_conf": 0.46283385157585144,
+        "denom": 0.7815023511648178,
+        "frac_recovered": 0.3128456680033181
+      },
+      {
+        "clean_conf": 0.9964445233345032,
+        "corrupt_conf": 2.1555228158831596e-05,
+        "patched_conf": 4.2569463403197005e-05,
+        "denom": 0.9964229681063443,
+        "frac_recovered": 2.1089673679744647e-05
+      },
+      {
+        "clean_conf": 0.999885082244873,
+        "corrupt_conf": 0.9912934899330139,
+        "patched_conf": 0.9965554475784302,
+        "denom": 0.00859159231185913,
+        "frac_recovered": 0.6124542988559971
+      },
+      {
+        "clean_conf": 0.9651020169258118,
+        "corrupt_conf": 0.0033404668793082237,
+        "patched_conf": 0.006443008314818144,
+        "denom": 0.9617615500465035,
+        "frac_recovered": 0.0032258946465055756
+      },
+      {
+        "clean_conf": 0.9995232820510864,
+        "corrupt_conf": 0.9989894032478333,
+        "patched_conf": 0.9994175434112549,
+        "denom": 0.0005338788032531738,
+        "frac_recovered": 0.8019426147147483
+      },
+      {
+        "clean_conf": 3.5460984690871555e-06,
+        "corrupt_conf": 0.9745261669158936,
+        "patched_conf": 0.5269614458084106,
+        "denom": -0.9745226208174245,
+        "frac_recovered": 0.45926560507345426
+      },
+      {
+        "clean_conf": 0.9984357953071594,
+        "corrupt_conf": 3.280673627159558e-05,
+        "patched_conf": 0.0005004825070500374,
+        "denom": 0.9984029885708878,
+        "frac_recovered": 0.0004684238490189939
+      },
+      {
+        "clean_conf": 0.9894724488258362,
+        "corrupt_conf": 0.7965558171272278,
+        "patched_conf": 0.9129018783569336,
+        "denom": 0.1929166316986084,
+        "frac_recovered": 0.6030898435520687
+      },
+      {
+        "clean_conf": 0.36824098229408264,
+        "corrupt_conf": 4.868438736593816e-07,
+        "patched_conf": 4.5349192987487186e-06,
+        "denom": 0.368240495450209,
+        "frac_recovered": 1.0993020797835338e-05
+      },
+      {
+        "clean_conf": 0.9970199465751648,
+        "corrupt_conf": 0.9928923845291138,
+        "patched_conf": 0.9739784002304077,
+        "denom": 0.004127562046051025,
+        "frac_recovered": -4.582362200176176
+      },
+      {
+        "clean_conf": 0.9985176920890808,
+        "corrupt_conf": 0.8585501909255981,
+        "patched_conf": 0.8767805695533752,
+        "denom": 0.13996750116348267,
+        "frac_recovered": 0.13024722507894126
+      },
+      {
+        "clean_conf": 0.9821453094482422,
+        "corrupt_conf": 2.631292090882198e-06,
+        "patched_conf": 1.2112324156987597e-06,
+        "denom": 0.9821426781561513,
+        "frac_recovered": -1.4458792055034415e-06
+      },
+      {
+        "clean_conf": 0.9996583461761475,
+        "corrupt_conf": 3.8860791391925886e-05,
+        "patched_conf": 0.776424765586853,
+        "denom": 0.9996194853847555,
+        "frac_recovered": 0.7766814434360777
+      },
+      {
+        "clean_conf": 0.9481333494186401,
+        "corrupt_conf": 0.5032225847244263,
+        "patched_conf": 0.33863338828086853,
+        "denom": 0.44491076469421387,
+        "frac_recovered": -0.3699375459181787
+      },
+      {
+        "clean_conf": 0.9998337030410767,
+        "corrupt_conf": 0.4273855686187744,
+        "patched_conf": 0.7357029318809509,
+        "denom": 0.5724481344223022,
+        "frac_recovered": 0.5385944065890289
+      },
+      {
+        "clean_conf": 0.997793436050415,
+        "corrupt_conf": 0.001988030271604657,
+        "patched_conf": 0.5142202377319336,
+        "denom": 0.9958054057788104,
+        "frac_recovered": 0.5143898642121919
+      },
+      {
+        "clean_conf": 4.7650872147642076e-05,
+        "corrupt_conf": 0.9961651563644409,
+        "patched_conf": 0.4377947151660919,
+        "denom": -0.9961175054922933,
+        "frac_recovered": 0.5605467609189295
+      },
+      {
+        "clean_conf": 0.7593162059783936,
+        "corrupt_conf": 3.672240382002201e-06,
+        "patched_conf": 1.1540254490682855e-05,
+        "denom": 0.7593125337380116,
+        "frac_recovered": 1.036202322375385e-05
+      },
+      {
+        "clean_conf": 0.9961769580841064,
+        "corrupt_conf": 9.541969120618887e-06,
+        "patched_conf": 3.7917038753221277e-07,
+        "denom": 0.9961674161149858,
+        "frac_recovered": -9.198051035257941e-06
+      },
+      {
+        "clean_conf": 0.9961330890655518,
+        "corrupt_conf": 2.093929197144462e-06,
+        "patched_conf": 7.581636509712553e-06,
+        "denom": 0.9961309951363546,
+        "frac_recovered": 5.509021744491456e-06
+      },
+      {
+        "clean_conf": 0.9949100613594055,
+        "corrupt_conf": 4.88206922000245e-07,
+        "patched_conf": 0.00031879014568403363,
+        "denom": 0.9949095731524835,
+        "frac_recovered": 0.00031993052167892777
+      },
+      {
+        "clean_conf": 0.9680280685424805,
+        "corrupt_conf": 0.7365713715553284,
+        "patched_conf": 0.8730228543281555,
+        "denom": 0.2314566969871521,
+        "frac_recovered": 0.5895335263528858
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 3.010199861819274e-06,
+        "patched_conf": 5.012376732338453e-06,
+        "denom": 0.9999948440329263,
+        "frac_recovered": 2.0021871937304254e-06
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 2.8819241038036125e-07,
+        "patched_conf": 3.1272353226086125e-05,
+        "denom": 0.999999354179721,
+        "frac_recovered": 3.098418082591807e-05
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 4.429557975527132e-06,
+        "patched_conf": 0.00048545218305662274,
+        "denom": 0.9999942591398394,
+        "frac_recovered": 0.00048102538658057365
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.831012003909564e-06,
+        "patched_conf": 0.00016054492152761668,
+        "denom": 0.9999934537322588,
+        "frac_recovered": 0.00015471492232901223
+      },
+      {
+        "clean_conf": 0.9998611211776733,
+        "corrupt_conf": 0.9989187717437744,
+        "patched_conf": 0.9997324347496033,
+        "denom": 0.0009423494338989258,
+        "frac_recovered": 0.8634408602150537
+      },
+      {
+        "clean_conf": 0.998540997505188,
+        "corrupt_conf": 0.30325019359588623,
+        "patched_conf": 0.7949037551879883,
+        "denom": 0.6952908039093018,
+        "frac_recovered": 0.7071193216245047
+      },
+      {
+        "clean_conf": 0.00935766939073801,
+        "corrupt_conf": 6.875675899209455e-05,
+        "patched_conf": 0.0004170317843090743,
+        "denom": 0.009288912631745916,
+        "frac_recovered": 0.03749362698565063
+      },
+      {
+        "clean_conf": 0.9971494078636169,
+        "corrupt_conf": 0.9905297160148621,
+        "patched_conf": 0.9936151504516602,
+        "denom": 0.006619691848754883,
+        "frac_recovered": 0.4660994057266343
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 0.0005568381166085601,
+        "patched_conf": 2.5360569111398945e-07,
+        "denom": 0.9994430426741019,
+        "frac_recovered": -0.0005568946774878266
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 4.603443812811747e-07,
+        "patched_conf": 6.806190278041413e-09,
+        "denom": 0.9999993012370396,
+        "frac_recovered": -4.535385079190437e-07
+      },
+      {
+        "clean_conf": 0.999967098236084,
+        "corrupt_conf": 0.010724429041147232,
+        "patched_conf": 0.006312995683401823,
+        "denom": 0.9892426691949368,
+        "frac_recovered": -0.0044594046487456025
+      },
+      {
+        "clean_conf": 0.15067258477210999,
+        "corrupt_conf": 3.773506591642217e-07,
+        "patched_conf": 2.9510935917187453e-08,
+        "denom": 0.15067220742145082,
+        "frac_recovered": -2.308585831453832e-06
+      },
+      {
+        "clean_conf": 0.07867904007434845,
+        "corrupt_conf": 7.315766197280027e-07,
+        "patched_conf": 4.564331447909353e-06,
+        "denom": 0.07867830849772872,
+        "frac_recovered": 4.871425048864636e-05
+      },
+      {
+        "clean_conf": 0.041817788034677505,
+        "corrupt_conf": 1.7786189232538163e-07,
+        "patched_conf": 1.980727802219917e-06,
+        "denom": 0.04181761017278518,
+        "frac_recovered": 4.311260022859549e-05
+      },
+      {
+        "clean_conf": 0.9834596514701843,
+        "corrupt_conf": 0.4625832140445709,
+        "patched_conf": 0.7522666454315186,
+        "denom": 0.5208764374256134,
+        "frac_recovered": 0.5561461616860284
+      },
+      {
+        "clean_conf": 0.94028240442276,
+        "corrupt_conf": 8.817521006676543e-07,
+        "patched_conf": 2.1827842999755376e-07,
+        "denom": 0.9402815226706593,
+        "frac_recovered": -7.056117286933938e-07
+      },
+      {
+        "clean_conf": 0.984900712966919,
+        "corrupt_conf": 0.9997243285179138,
+        "patched_conf": 0.9981065988540649,
+        "denom": -0.014823615550994873,
+        "frac_recovered": 0.10913192252481915
+      },
+      {
+        "clean_conf": 0.9842574596405029,
+        "corrupt_conf": 0.4373839497566223,
+        "patched_conf": 0.5674118399620056,
+        "denom": 0.5468735098838806,
+        "frac_recovered": 0.23776593280773928
+      },
+      {
+        "clean_conf": 0.4191018342971802,
+        "corrupt_conf": 5.775332851953863e-07,
+        "patched_conf": 6.148108155912269e-08,
+        "denom": 0.419101256763895,
+        "frac_recovered": -1.2313306040191307e-06
+      },
+      {
+        "clean_conf": 0.9999568462371826,
+        "corrupt_conf": 2.4608892999822274e-05,
+        "patched_conf": 0.003119169268757105,
+        "denom": 0.9999322373441828,
+        "frac_recovered": 0.0030947700855974264
+      },
+      {
+        "clean_conf": 0.2138550579547882,
+        "corrupt_conf": 0.00027115261764265597,
+        "patched_conf": 0.4256478250026703,
+        "denom": 0.21358390533714555,
+        "frac_recovered": 1.9916138892280477
+      },
+      {
+        "clean_conf": 0.9997836947441101,
+        "corrupt_conf": 0.9893823862075806,
+        "patched_conf": 0.9916917085647583,
+        "denom": 0.010401308536529541,
+        "frac_recovered": 0.2220222916248818
+      },
+      {
+        "clean_conf": 0.9990099668502808,
+        "corrupt_conf": 0.00011217875726288185,
+        "patched_conf": 0.003012848785147071,
+        "denom": 0.9988977880930179,
+        "frac_recovered": 0.0029038707087557162
+      },
+      {
+        "clean_conf": 0.058375369757413864,
+        "corrupt_conf": 0.10583889484405518,
+        "patched_conf": 0.009662908501923084,
+        "denom": -0.04746352508664131,
+        "frac_recovered": 2.0263135990546344
+      },
+      {
+        "clean_conf": 0.9803354740142822,
+        "corrupt_conf": 0.00547399977222085,
+        "patched_conf": 0.0071264831349253654,
+        "denom": 0.9748614742420614,
+        "frac_recovered": 0.0016950955662590871
+      },
+      {
+        "clean_conf": 0.9999791383743286,
+        "corrupt_conf": 2.89216330884301e-07,
+        "patched_conf": 0.0010591590544208884,
+        "denom": 0.9999788491579977,
+        "frac_recovered": 0.0010588922345523546
+      },
+      {
+        "clean_conf": 0.9960846900939941,
+        "corrupt_conf": 0.7324880957603455,
+        "patched_conf": 0.9402581453323364,
+        "denom": 0.2635965943336487,
+        "frac_recovered": 0.7882121925634783
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 6.196860340423882e-05,
+        "patched_conf": 8.704843821760733e-06,
+        "denom": 0.9999380313965958,
+        "frac_recovered": -5.326706046782273e-05
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 4.92286631015304e-07,
+        "patched_conf": 1.4636102605436463e-06,
+        "denom": 0.999998434829763,
+        "frac_recovered": 9.713251498175572e-07
+      },
+      {
+        "clean_conf": 0.9999752044677734,
+        "corrupt_conf": 1.5507023363170447e-06,
+        "patched_conf": 2.3675006559642497e-06,
+        "denom": 0.9999736537654371,
+        "frac_recovered": 8.168198397742994e-07
+      },
+      {
+        "clean_conf": 0.9979658126831055,
+        "corrupt_conf": 6.0532797760970425e-06,
+        "patched_conf": 0.0001351074897684157,
+        "denom": 0.9979597594033294,
+        "frac_recovered": 0.00012931804992766333
+      },
+      {
+        "clean_conf": 0.23258322477340698,
+        "corrupt_conf": 1.0539408776821801e-06,
+        "patched_conf": 1.546491574799802e-07,
+        "denom": 0.2325821708325293,
+        "frac_recovered": -3.866554848048669e-06
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 6.1802802520105615e-06,
+        "patched_conf": 0.00011951258784392849,
+        "denom": 0.9999916739525361,
+        "frac_recovered": 0.00011333325120994675
+      },
+      {
+        "clean_conf": 0.9999887943267822,
+        "corrupt_conf": 0.6840956211090088,
+        "patched_conf": 0.9510833024978638,
+        "denom": 0.31589317321777344,
+        "frac_recovered": 0.8451834481551029
+      },
+      {
+        "clean_conf": 0.9865307211875916,
+        "corrupt_conf": 0.9394267201423645,
+        "patched_conf": 0.9630005359649658,
+        "denom": 0.04710400104522705,
+        "frac_recovered": 0.5004631305091651
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 1.069153938715317e-07,
+        "patched_conf": 4.446791081136325e-06,
+        "denom": 0.999999654666027,
+        "frac_recovered": 4.339877185971825e-06
+      },
+      {
+        "clean_conf": 0.9995371103286743,
+        "corrupt_conf": 0.450822651386261,
+        "patched_conf": 0.3378121554851532,
+        "denom": 0.5487144589424133,
+        "frac_recovered": -0.20595501733073168
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 0.0036481358110904694,
+        "patched_conf": 0.09089841693639755,
+        "denom": 0.9963513873517513,
+        "frac_recovered": 0.08756978936639379
+      },
+      {
+        "clean_conf": 0.9464777708053589,
+        "corrupt_conf": 2.636332283145748e-06,
+        "patched_conf": 1.4903920600772835e-05,
+        "denom": 0.9464751344730757,
+        "frac_recovered": 1.2961342428141794e-05
+      },
+      {
+        "clean_conf": 0.9999948740005493,
+        "corrupt_conf": 0.0010723235318437219,
+        "patched_conf": 0.0001772273244569078,
+        "denom": 0.9989225504687056,
+        "frac_recovered": -0.0008960616686116706
+      },
+      {
+        "clean_conf": 0.9980828762054443,
+        "corrupt_conf": 0.8745058178901672,
+        "patched_conf": 0.8975333571434021,
+        "denom": 0.1235770583152771,
+        "frac_recovered": 0.18634153917538354
+      },
+      {
+        "clean_conf": 0.9999092817306519,
+        "corrupt_conf": 0.059414081275463104,
+        "patched_conf": 0.22584596276283264,
+        "denom": 0.9404952004551888,
+        "frac_recovered": 0.17696196791522004
+      },
+      {
+        "clean_conf": 0.9525880217552185,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.4889605939388275,
+        "denom": 0.5430997908115387,
+        "frac_recovered": 0.14633105064613336
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 8.440846613666508e-06,
+        "patched_conf": 0.0002212735707871616,
+        "denom": 0.9999914399440968,
+        "frac_recovered": 0.0002128345460491074
+      },
+      {
+        "clean_conf": 0.9974059462547302,
+        "corrupt_conf": 0.007510352414101362,
+        "patched_conf": 0.01885409466922283,
+        "denom": 0.9898955938406289,
+        "frac_recovered": 0.01145953404147366
+      },
+      {
+        "clean_conf": 0.9132049083709717,
+        "corrupt_conf": 0.8779352307319641,
+        "patched_conf": 0.8787053227424622,
+        "denom": 0.03526967763900757,
+        "frac_recovered": 0.021834393225254215
+      },
+      {
+        "clean_conf": 0.9999164342880249,
+        "corrupt_conf": 0.10147520899772644,
+        "patched_conf": 0.9849912524223328,
+        "denom": 0.8984412252902985,
+        "frac_recovered": 0.983387692543973
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 0.01948966458439827,
+        "patched_conf": 0.07144298404455185,
+        "denom": 0.9805037789046764,
+        "frac_recovered": 0.052986353115528816
+      },
+      {
+        "clean_conf": 0.999969482421875,
+        "corrupt_conf": 0.9928406476974487,
+        "patched_conf": 0.981109619140625,
+        "denom": 0.0071288347244262695,
+        "frac_recovered": -1.6455744887209245
+      },
+      {
+        "clean_conf": 0.997938334941864,
+        "corrupt_conf": 0.9999316930770874,
+        "patched_conf": 0.9998975992202759,
+        "denom": -0.0019933581352233887,
+        "frac_recovered": 0.017103728732470173
+      },
+      {
+        "clean_conf": 0.9995474219322205,
+        "corrupt_conf": 0.02157892845571041,
+        "patched_conf": 0.8861537575721741,
+        "denom": 0.97796849347651,
+        "frac_recovered": 0.8840518226134756
+      },
+      {
+        "clean_conf": 0.9999945163726807,
+        "corrupt_conf": 7.436138389493863e-07,
+        "patched_conf": 0.002218979876488447,
+        "denom": 0.9999937727588417,
+        "frac_recovered": 0.002218250076227672
+      },
+      {
+        "clean_conf": 0.9999518394470215,
+        "corrupt_conf": 5.636460969071777e-07,
+        "patched_conf": 0.0054848394356667995,
+        "denom": 0.9999512758009246,
+        "frac_recovered": 0.005484543019535814
+      },
+      {
+        "clean_conf": 0.9998946189880371,
+        "corrupt_conf": 0.0005852272734045982,
+        "patched_conf": 0.029077740386128426,
+        "denom": 0.9993093917146325,
+        "frac_recovered": 0.028512203876955338
+      },
+      {
+        "clean_conf": 0.9967071413993835,
+        "corrupt_conf": 0.9877838492393494,
+        "patched_conf": 0.9988304972648621,
+        "denom": 0.00892329216003418,
+        "frac_recovered": 1.2379565554278997
+      },
+      {
+        "clean_conf": 0.9998177886009216,
+        "corrupt_conf": 0.07410693913698196,
+        "patched_conf": 0.053481459617614746,
+        "denom": 0.9257108494639397,
+        "frac_recovered": -0.022280693297816498
+      },
+      {
+        "clean_conf": 0.9710168838500977,
+        "corrupt_conf": 2.6706591143010883e-06,
+        "patched_conf": 5.752151110982595e-08,
+        "denom": 0.9710142131909834,
+        "frac_recovered": -2.691142485550105e-06
+      },
+      {
+        "clean_conf": 0.1155250146985054,
+        "corrupt_conf": 7.237450063257711e-06,
+        "patched_conf": 0.0001942975795827806,
+        "denom": 0.11551777724844214,
+        "frac_recovered": 0.001619318982542538
+      },
+      {
+        "clean_conf": 0.9998879432678223,
+        "corrupt_conf": 0.6786221265792847,
+        "patched_conf": 0.8933744430541992,
+        "denom": 0.3212658166885376,
+        "frac_recovered": 0.6684567897340715
+      },
+      {
+        "clean_conf": 0.9977516531944275,
+        "corrupt_conf": 0.9559327363967896,
+        "patched_conf": 0.952178955078125,
+        "denom": 0.04181891679763794,
+        "frac_recovered": -0.08976275824716186
+      },
+      {
+        "clean_conf": 0.99998939037323,
+        "corrupt_conf": 0.00527404947206378,
+        "patched_conf": 0.054796624928712845,
+        "denom": 0.9947153409011662,
+        "frac_recovered": 0.04978567578115755
+      },
+      {
+        "clean_conf": 0.9712470173835754,
+        "corrupt_conf": 0.9595231413841248,
+        "patched_conf": 0.979810357093811,
+        "denom": 0.011723875999450684,
+        "frac_recovered": 1.7304188231466135
+      },
+      {
+        "clean_conf": 0.5871012210845947,
+        "corrupt_conf": 7.708531484240666e-06,
+        "patched_conf": 3.1867893994785845e-05,
+        "denom": 0.5870935125531105,
+        "frac_recovered": 4.1150791132885566e-05
+      },
+      {
+        "clean_conf": 0.54350745677948,
+        "corrupt_conf": 0.833796501159668,
+        "patched_conf": 0.9275095462799072,
+        "denom": -0.290289044380188,
+        "frac_recovered": -0.3228266685721161
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 0.9997084736824036,
+        "patched_conf": 0.9996465444564819,
+        "denom": 0.0002911686897277832,
+        "frac_recovered": -0.21269191402251791
+      },
+      {
+        "clean_conf": 0.5184811949729919,
+        "corrupt_conf": 0.012963160872459412,
+        "patched_conf": 0.021875593811273575,
+        "denom": 0.5055180341005325,
+        "frac_recovered": 0.01763029672061461
+      },
+      {
+        "clean_conf": 0.9991565942764282,
+        "corrupt_conf": 8.46127477416303e-06,
+        "patched_conf": 0.0003498569712974131,
+        "denom": 0.9991481330016541,
+        "frac_recovered": 0.00034168676820485526
+      },
+      {
+        "clean_conf": 0.999981164932251,
+        "corrupt_conf": 5.16009595230571e-06,
+        "patched_conf": 0.025867005810141563,
+        "denom": 0.9999760048362987,
+        "frac_recovered": 0.025862466288301567
+      },
+      {
+        "clean_conf": 0.9999988079071045,
+        "corrupt_conf": 4.048473329021363e-06,
+        "patched_conf": 1.472494113841094e-05,
+        "denom": 0.9999947594337755,
+        "frac_recovered": 1.0676523760419393e-05
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 8.776195272730547e-07,
+        "patched_conf": 2.1130039385752752e-05,
+        "denom": 0.9999981687061563,
+        "frac_recovered": 2.0252456946679424e-05
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 5.812364634039113e-07,
+        "patched_conf": 7.253949297592044e-05,
+        "denom": 0.9999973922056142,
+        "frac_recovered": 7.195844416534324e-05
+      },
+      {
+        "clean_conf": 0.988244891166687,
+        "corrupt_conf": 0.6452434659004211,
+        "patched_conf": 0.8495127558708191,
+        "denom": 0.34300142526626587,
+        "frac_recovered": 0.5955348139204593
+      },
+      {
+        "clean_conf": 0.9985184073448181,
+        "corrupt_conf": 0.9995434880256653,
+        "patched_conf": 0.9993593096733093,
+        "denom": -0.001025080680847168,
+        "frac_recovered": 0.1796720548901035
+      },
+      {
+        "clean_conf": 0.9990379810333252,
+        "corrupt_conf": 0.0005027009174227715,
+        "patched_conf": 0.006487895734608173,
+        "denom": 0.9985352801159024,
+        "frac_recovered": 0.005993974310542824
+      },
+      {
+        "clean_conf": 0.9832346439361572,
+        "corrupt_conf": 0.9435730576515198,
+        "patched_conf": 0.9871907234191895,
+        "denom": 0.03966158628463745,
+        "frac_recovered": 1.0997458713486852
+      },
+      {
+        "clean_conf": 0.9998157620429993,
+        "corrupt_conf": 0.000113057998532895,
+        "patched_conf": 0.0005884717684239149,
+        "denom": 0.9997027040444664,
+        "frac_recovered": 0.0004755551505139009
+      },
+      {
+        "clean_conf": 0.0021997939329594374,
+        "corrupt_conf": 0.0009983007330447435,
+        "patched_conf": 0.014177044853568077,
+        "denom": 0.0012014931999146938,
+        "frac_recovered": 10.968638125841267
+      },
+      {
+        "clean_conf": 0.8034820556640625,
+        "corrupt_conf": 0.9914548397064209,
+        "patched_conf": 0.9821600317955017,
+        "denom": -0.1879727840423584,
+        "frac_recovered": 0.049447625933042874
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.82638961077464e-07,
+        "patched_conf": 0.4583757817745209,
+        "denom": 0.9999987021053016,
+        "frac_recovered": 0.45837579405907275
+      },
+      {
+        "clean_conf": 0.15644590556621552,
+        "corrupt_conf": 0.00016483223589602858,
+        "patched_conf": 0.0006778663373552263,
+        "denom": 0.1562810733303195,
+        "frac_recovered": 0.003282765408034
+      },
+      {
+        "clean_conf": 0.9999903440475464,
+        "corrupt_conf": 4.103368155483622e-06,
+        "patched_conf": 0.7927695512771606,
+        "denom": 0.9999862406793909,
+        "frac_recovered": 0.7927763559730583
+      },
+      {
+        "clean_conf": 0.40091025829315186,
+        "corrupt_conf": 9.113506393987336e-07,
+        "patched_conf": 1.2240729120094329e-05,
+        "denom": 0.40090934694251246,
+        "frac_recovered": 2.8259202652913322e-05
+      },
+      {
+        "clean_conf": 0.9806011915206909,
+        "corrupt_conf": 6.484330697276164e-06,
+        "patched_conf": 2.128608502971474e-05,
+        "denom": 0.9805947071899936,
+        "frac_recovered": 1.5094670839958639e-05
+      },
+      {
+        "clean_conf": 0.9877712726593018,
+        "corrupt_conf": 1.8361935872235335e-05,
+        "patched_conf": 4.6579515355915646e-07,
+        "denom": 0.9877529107234295,
+        "frac_recovered": -1.8118033897332744e-05
+      },
+      {
+        "clean_conf": 0.8950383067131042,
+        "corrupt_conf": 0.9898876547813416,
+        "patched_conf": 0.9800294041633606,
+        "denom": -0.0948493480682373,
+        "frac_recovered": 0.10393588167721145
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 0.0007457449100911617,
+        "patched_conf": 0.3482772409915924,
+        "denom": 0.9992542550899088,
+        "frac_recovered": 0.3477908593446337
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 2.555038236096152e-06,
+        "patched_conf": 0.9135372638702393,
+        "denom": 0.9999973257524744,
+        "frac_recovered": 0.9135371518564711
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.3092170547679416e-06,
+        "patched_conf": 1.830193923524348e-06,
+        "denom": 0.9999985715736557,
+        "frac_recovered": 5.209776129345535e-07
+      },
+      {
+        "clean_conf": 0.22623030841350555,
+        "corrupt_conf": 2.7808880531665636e-06,
+        "patched_conf": 0.0006847502663731575,
+        "denom": 0.2262275275254524,
+        "frac_recovered": 0.003014528717082248
+      },
+      {
+        "clean_conf": 0.9989880919456482,
+        "corrupt_conf": 0.07442785054445267,
+        "patched_conf": 0.0238735843449831,
+        "denom": 0.9245602414011955,
+        "frac_recovered": -0.054679256078385155
+      },
+      {
+        "clean_conf": 0.9980669617652893,
+        "corrupt_conf": 0.9998251795768738,
+        "patched_conf": 0.9996944665908813,
+        "denom": -0.0017582178115844727,
+        "frac_recovered": 0.07434402332361516
+      },
+      {
+        "clean_conf": 0.9977255463600159,
+        "corrupt_conf": 0.396145224571228,
+        "patched_conf": 0.6164074540138245,
+        "denom": 0.6015803217887878,
+        "frac_recovered": 0.36613935241041595
+      },
+      {
+        "clean_conf": 0.11440800875425339,
+        "corrupt_conf": 2.1190148800087627e-06,
+        "patched_conf": 0.00020942969422321767,
+        "denom": 0.11440588973937338,
+        "frac_recovered": 0.0018120629961925977
+      }
+    ],
+    "3": [
+      {
+        "clean_conf": 0.999994158744812,
+        "corrupt_conf": 0.01906023733317852,
+        "patched_conf": 0.2489832043647766,
+        "denom": 0.9809339214116335,
+        "frac_recovered": 0.2343919014450256
+      },
+      {
+        "clean_conf": 0.7084962129592896,
+        "corrupt_conf": 0.9855072498321533,
+        "patched_conf": 0.9943669438362122,
+        "denom": -0.27701103687286377,
+        "frac_recovered": -0.031983180540654986
+      },
+      {
+        "clean_conf": 0.9962061643600464,
+        "corrupt_conf": 0.0007761984597891569,
+        "patched_conf": 0.06831561028957367,
+        "denom": 0.9954299659002572,
+        "frac_recovered": 0.06784948629580638
+      },
+      {
+        "clean_conf": 0.9971298575401306,
+        "corrupt_conf": 0.014882354065775871,
+        "patched_conf": 0.6657865047454834,
+        "denom": 0.9822475034743547,
+        "frac_recovered": 0.6626681649761015
+      },
+      {
+        "clean_conf": 0.20073413848876953,
+        "corrupt_conf": 0.004032258875668049,
+        "patched_conf": 0.039872486144304276,
+        "denom": 0.19670187961310148,
+        "frac_recovered": 0.18220581999079719
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 4.96041707265249e-07,
+        "patched_conf": 1.2281202543817926e-06,
+        "denom": 0.9999929474473674,
+        "frac_recovered": 7.320837101754411e-07
+      },
+      {
+        "clean_conf": 1.692784280749038e-05,
+        "corrupt_conf": 0.5948514342308044,
+        "patched_conf": 0.18216563761234283,
+        "denom": -0.594834506387997,
+        "frac_recovered": 0.6937825431890398
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.51907123735873e-06,
+        "patched_conf": 0.3786640465259552,
+        "denom": 0.9999934080451567,
+        "frac_recovered": 0.37866102357108616
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 1.736032572807744e-05,
+        "patched_conf": 0.08407094329595566,
+        "denom": 0.9999806131163496,
+        "frac_recovered": 0.08405521253885329
+      },
+      {
+        "clean_conf": 0.31532323360443115,
+        "corrupt_conf": 0.001225300831720233,
+        "patched_conf": 0.10282813012599945,
+        "denom": 0.3140979327727109,
+        "frac_recovered": 0.32347500156201775
+      },
+      {
+        "clean_conf": 0.9999512434005737,
+        "corrupt_conf": 3.9196038414957e-06,
+        "patched_conf": 0.0001921689254231751,
+        "denom": 0.9999473237967322,
+        "frac_recovered": 0.00018825923836358647
+      },
+      {
+        "clean_conf": 0.999716579914093,
+        "corrupt_conf": 0.993343710899353,
+        "patched_conf": 0.9877283573150635,
+        "denom": 0.00637286901473999,
+        "frac_recovered": -0.8811343166322169
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 5.29601275047753e-05,
+        "patched_conf": 0.0895514041185379,
+        "denom": 0.999946563035337,
+        "frac_recovered": 0.08950322677179935
+      },
+      {
+        "clean_conf": 0.9196568727493286,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.4702893793582916,
+        "denom": 0.5101686418056488,
+        "frac_recovered": 0.11917852927890128
+      },
+      {
+        "clean_conf": 0.9987063407897949,
+        "corrupt_conf": 0.9996765851974487,
+        "patched_conf": 0.9996297359466553,
+        "denom": -0.0009702444076538086,
+        "frac_recovered": 0.048286030224843346
+      },
+      {
+        "clean_conf": 0.9999984502792358,
+        "corrupt_conf": 0.03935999423265457,
+        "patched_conf": 0.9051371216773987,
+        "denom": 0.9606384560465813,
+        "frac_recovered": 0.901251789364929
+      },
+      {
+        "clean_conf": 0.9340134263038635,
+        "corrupt_conf": 0.7830493450164795,
+        "patched_conf": 0.678819477558136,
+        "denom": 0.15096408128738403,
+        "frac_recovered": -0.6904282566389117
+      },
+      {
+        "clean_conf": 0.9768757820129395,
+        "corrupt_conf": 0.9229055643081665,
+        "patched_conf": 0.8515278697013855,
+        "denom": 0.05397021770477295,
+        "frac_recovered": -1.322538571128806
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 5.106040248392674e-07,
+        "patched_conf": 0.1487613022327423,
+        "denom": 0.9999993701866856,
+        "frac_recovered": 0.1487608853203037
+      },
+      {
+        "clean_conf": 0.9994508624076843,
+        "corrupt_conf": 0.9979140162467957,
+        "patched_conf": 0.9989626407623291,
+        "denom": 0.0015368461608886719,
+        "frac_recovered": 0.6823223704623022
+      },
+      {
+        "clean_conf": 2.9853977139282506e-06,
+        "corrupt_conf": 0.11218808591365814,
+        "patched_conf": 0.0026393907610327005,
+        "denom": -0.11218510051594421,
+        "frac_recovered": 0.9764995052712542
+      },
+      {
+        "clean_conf": 0.9969643950462341,
+        "corrupt_conf": 0.7768816351890564,
+        "patched_conf": 0.9898327589035034,
+        "denom": 0.22008275985717773,
+        "frac_recovered": 0.9675956619802534
+      },
+      {
+        "clean_conf": 0.999606192111969,
+        "corrupt_conf": 0.9050228595733643,
+        "patched_conf": 0.9732683897018433,
+        "denom": 0.09458333253860474,
+        "frac_recovered": 0.7215386505928431
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 0.9996731281280518,
+        "patched_conf": 0.9999371767044067,
+        "denom": 0.0003255605697631836,
+        "frac_recovered": 0.8110582204320762
+      },
+      {
+        "clean_conf": 0.9981279969215393,
+        "corrupt_conf": 0.014097815379500389,
+        "patched_conf": 0.21765975654125214,
+        "denom": 0.9840301815420389,
+        "frac_recovered": 0.20686554638269025
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.1555470337043516e-05,
+        "patched_conf": 0.001498924451880157,
+        "denom": 0.9999883253203734,
+        "frac_recovered": 0.0014873863463021875
+      },
+      {
+        "clean_conf": 0.9495097398757935,
+        "corrupt_conf": 0.2019936740398407,
+        "patched_conf": 0.2656190097332001,
+        "denom": 0.7475160658359528,
+        "frac_recovered": 0.08511567657372913
+      },
+      {
+        "clean_conf": 0.9992656111717224,
+        "corrupt_conf": 0.6197432279586792,
+        "patched_conf": 0.873453676700592,
+        "denom": 0.3795223832130432,
+        "frac_recovered": 0.6684993032400242
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.4183483371161856e-06,
+        "patched_conf": 0.0033104633912444115,
+        "denom": 0.9999935087680569,
+        "frac_recovered": 0.003305066496860514
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 0.00030703205266036093,
+        "patched_conf": 0.00999104417860508,
+        "denom": 0.9996920142730232,
+        "frac_recovered": 0.00968699558232136
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 3.904861785031244e-07,
+        "patched_conf": 0.006255713291466236,
+        "denom": 0.999999490304532,
+        "frac_recovered": 0.006255325993599043
+      },
+      {
+        "clean_conf": 0.9999669790267944,
+        "corrupt_conf": 7.498951890738681e-05,
+        "patched_conf": 0.00028209449374116957,
+        "denom": 0.999891989507887,
+        "frac_recovered": 0.0002071273467604364
+      },
+      {
+        "clean_conf": 0.9999985694885254,
+        "corrupt_conf": 8.29427062853938e-06,
+        "patched_conf": 0.00020722101908177137,
+        "denom": 0.9999902752178969,
+        "frac_recovered": 0.00019892868299132814
+      },
+      {
+        "clean_conf": 0.9998028874397278,
+        "corrupt_conf": 0.19323691725730896,
+        "patched_conf": 0.2559317350387573,
+        "denom": 0.8065659701824188,
+        "frac_recovered": 0.07773055162154789
+      },
+      {
+        "clean_conf": 0.9999281167984009,
+        "corrupt_conf": 0.06627816706895828,
+        "patched_conf": 0.20843830704689026,
+        "denom": 0.9336499497294426,
+        "frac_recovered": 0.152262783304522
+      },
+      {
+        "clean_conf": 0.9998465776443481,
+        "corrupt_conf": 0.21834422647953033,
+        "patched_conf": 0.5312488675117493,
+        "denom": 0.7815023511648178,
+        "frac_recovered": 0.4003886111997477
+      },
+      {
+        "clean_conf": 0.9964445233345032,
+        "corrupt_conf": 2.1555228158831596e-05,
+        "patched_conf": 0.0026914039626717567,
+        "denom": 0.9964229681063443,
+        "frac_recovered": 0.0026794331523558204
+      },
+      {
+        "clean_conf": 0.999885082244873,
+        "corrupt_conf": 0.9912934899330139,
+        "patched_conf": 0.9976457953453064,
+        "denom": 0.00859159231185913,
+        "frac_recovered": 0.7393629936937625
+      },
+      {
+        "clean_conf": 0.9651020169258118,
+        "corrupt_conf": 0.0033404668793082237,
+        "patched_conf": 0.008927473798394203,
+        "denom": 0.9617615500465035,
+        "frac_recovered": 0.0058091394055167144
+      },
+      {
+        "clean_conf": 0.9995232820510864,
+        "corrupt_conf": 0.9989894032478333,
+        "patched_conf": 0.999472439289093,
+        "denom": 0.0005338788032531738,
+        "frac_recovered": 0.9047672211678017
+      },
+      {
+        "clean_conf": 3.5460984690871555e-06,
+        "corrupt_conf": 0.9745261669158936,
+        "patched_conf": 0.6832711696624756,
+        "denom": -0.9745226208174245,
+        "frac_recovered": 0.29886940644755355
+      },
+      {
+        "clean_conf": 0.9984357953071594,
+        "corrupt_conf": 3.280673627159558e-05,
+        "patched_conf": 9.258368663722649e-05,
+        "denom": 0.9984029885708878,
+        "frac_recovered": 5.987256754028303e-05
+      },
+      {
+        "clean_conf": 0.9894724488258362,
+        "corrupt_conf": 0.7965558171272278,
+        "patched_conf": 0.991572380065918,
+        "denom": 0.1929166316986084,
+        "frac_recovered": 1.010885174707811
+      },
+      {
+        "clean_conf": 0.36824098229408264,
+        "corrupt_conf": 4.868438736593816e-07,
+        "patched_conf": 3.565986480680294e-05,
+        "denom": 0.368240495450209,
+        "frac_recovered": 9.551643930453983e-05
+      },
+      {
+        "clean_conf": 0.9970199465751648,
+        "corrupt_conf": 0.9928923845291138,
+        "patched_conf": 0.994962215423584,
+        "denom": 0.004127562046051025,
+        "frac_recovered": 0.5014657251368251
+      },
+      {
+        "clean_conf": 0.9985176920890808,
+        "corrupt_conf": 0.8585501909255981,
+        "patched_conf": 0.978496789932251,
+        "denom": 0.13996750116348267,
+        "frac_recovered": 0.8569603515787187
+      },
+      {
+        "clean_conf": 0.9821453094482422,
+        "corrupt_conf": 2.631292090882198e-06,
+        "patched_conf": 0.00146573840174824,
+        "denom": 0.9821426781561513,
+        "frac_recovered": 0.0014897093285918053
+      },
+      {
+        "clean_conf": 0.9996583461761475,
+        "corrupt_conf": 3.8860791391925886e-05,
+        "patched_conf": 0.010574672371149063,
+        "denom": 0.9996194853847555,
+        "frac_recovered": 0.010539822136122009
+      },
+      {
+        "clean_conf": 0.9481333494186401,
+        "corrupt_conf": 0.5032225847244263,
+        "patched_conf": 0.8606489896774292,
+        "denom": 0.44491076469421387,
+        "frac_recovered": 0.803366502491036
+      },
+      {
+        "clean_conf": 0.9998337030410767,
+        "corrupt_conf": 0.4273855686187744,
+        "patched_conf": 0.6837193369865417,
+        "denom": 0.5724481344223022,
+        "frac_recovered": 0.4477851406161919
+      },
+      {
+        "clean_conf": 0.997793436050415,
+        "corrupt_conf": 0.001988030271604657,
+        "patched_conf": 0.021647145971655846,
+        "denom": 0.9958054057788104,
+        "frac_recovered": 0.01974192506484334
+      },
+      {
+        "clean_conf": 4.7650872147642076e-05,
+        "corrupt_conf": 0.9961651563644409,
+        "patched_conf": 0.9275578856468201,
+        "denom": -0.9961175054922933,
+        "frac_recovered": 0.06887467626995905
+      },
+      {
+        "clean_conf": 0.7593162059783936,
+        "corrupt_conf": 3.672240382002201e-06,
+        "patched_conf": 9.508414223091677e-06,
+        "denom": 0.7593125337380116,
+        "frac_recovered": 7.686128677948509e-06
+      },
+      {
+        "clean_conf": 0.9961769580841064,
+        "corrupt_conf": 9.541969120618887e-06,
+        "patched_conf": 7.828699040146603e-07,
+        "denom": 0.9961674161149858,
+        "frac_recovered": -8.792798353879484e-06
+      },
+      {
+        "clean_conf": 0.9961330890655518,
+        "corrupt_conf": 2.093929197144462e-06,
+        "patched_conf": 0.00017153541557490826,
+        "denom": 0.9961309951363546,
+        "frac_recovered": 0.00017009960256740122
+      },
+      {
+        "clean_conf": 0.9949100613594055,
+        "corrupt_conf": 4.88206922000245e-07,
+        "patched_conf": 3.935205313609913e-06,
+        "denom": 0.9949095731524835,
+        "frac_recovered": 3.4646348619276662e-06
+      },
+      {
+        "clean_conf": 0.9680280685424805,
+        "corrupt_conf": 0.7365713715553284,
+        "patched_conf": 0.5243046283721924,
+        "denom": 0.2314566969871521,
+        "frac_recovered": -0.9170905225305219
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 3.010199861819274e-06,
+        "patched_conf": 0.0006237873458303511,
+        "denom": 0.9999948440329263,
+        "frac_recovered": 0.0006207803466915594
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 2.8819241038036125e-07,
+        "patched_conf": 1.3359241165744606e-05,
+        "denom": 0.999999354179721,
+        "frac_recovered": 1.3071057196918052e-05
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 4.429557975527132e-06,
+        "patched_conf": 0.002775565255433321,
+        "denom": 0.9999942591398394,
+        "frac_recovered": 0.002771151606251649
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.831012003909564e-06,
+        "patched_conf": 0.0018468922935426235,
+        "denom": 0.9999934537322588,
+        "frac_recovered": 0.0018410733336976875
+      },
+      {
+        "clean_conf": 0.9998611211776733,
+        "corrupt_conf": 0.9989187717437744,
+        "patched_conf": 0.999035120010376,
+        "denom": 0.0009423494338989258,
+        "frac_recovered": 0.1234661606578115
+      },
+      {
+        "clean_conf": 0.998540997505188,
+        "corrupt_conf": 0.30325019359588623,
+        "patched_conf": 0.7361336350440979,
+        "denom": 0.6952908039093018,
+        "frac_recovered": 0.6225933652714898
+      },
+      {
+        "clean_conf": 0.00935766939073801,
+        "corrupt_conf": 6.875675899209455e-05,
+        "patched_conf": 0.00013416273577604443,
+        "denom": 0.009288912631745916,
+        "frac_recovered": 0.007041295292240936
+      },
+      {
+        "clean_conf": 0.9971494078636169,
+        "corrupt_conf": 0.9905297160148621,
+        "patched_conf": 0.9696041941642761,
+        "denom": 0.006619691848754883,
+        "frac_recovered": -3.161102106969206
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 0.0005568381166085601,
+        "patched_conf": 0.6292604207992554,
+        "denom": 0.9994430426741019,
+        "frac_recovered": 0.6290539388822923
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 4.603443812811747e-07,
+        "patched_conf": 0.0002620388404466212,
+        "denom": 0.9999993012370396,
+        "frac_recovered": 0.000261578678846832
+      },
+      {
+        "clean_conf": 0.999967098236084,
+        "corrupt_conf": 0.010724429041147232,
+        "patched_conf": 0.01816950924694538,
+        "denom": 0.9892426691949368,
+        "frac_recovered": 0.007526040311076641
+      },
+      {
+        "clean_conf": 0.15067258477210999,
+        "corrupt_conf": 3.773506591642217e-07,
+        "patched_conf": 8.054759746300988e-06,
+        "denom": 0.15067220742145082,
+        "frac_recovered": 5.095438115977156e-05
+      },
+      {
+        "clean_conf": 0.07867904007434845,
+        "corrupt_conf": 7.315766197280027e-07,
+        "patched_conf": 8.76825083651056e-07,
+        "denom": 0.07867830849772872,
+        "frac_recovered": 1.846105574667335e-06
+      },
+      {
+        "clean_conf": 0.041817788034677505,
+        "corrupt_conf": 1.7786189232538163e-07,
+        "patched_conf": 1.0890792509599123e-05,
+        "denom": 0.04181761017278518,
+        "frac_recovered": 0.0002561822775861471
+      },
+      {
+        "clean_conf": 0.9834596514701843,
+        "corrupt_conf": 0.4625832140445709,
+        "patched_conf": 0.7454653382301331,
+        "denom": 0.5208764374256134,
+        "frac_recovered": 0.5430887324903435
+      },
+      {
+        "clean_conf": 0.94028240442276,
+        "corrupt_conf": 8.817521006676543e-07,
+        "patched_conf": 5.341547148418613e-05,
+        "denom": 0.9402815226706593,
+        "frac_recovered": 5.5870202824265004e-05
+      },
+      {
+        "clean_conf": 0.984900712966919,
+        "corrupt_conf": 0.9997243285179138,
+        "patched_conf": 0.9994366765022278,
+        "denom": -0.014823615550994873,
+        "frac_recovered": 0.019404983534312564
+      },
+      {
+        "clean_conf": 0.9842574596405029,
+        "corrupt_conf": 0.4373839497566223,
+        "patched_conf": 0.7227983474731445,
+        "denom": 0.5468735098838806,
+        "frac_recovered": 0.5219020350375448
+      },
+      {
+        "clean_conf": 0.4191018342971802,
+        "corrupt_conf": 5.775332851953863e-07,
+        "patched_conf": 4.236374024912948e-06,
+        "denom": 0.419101256763895,
+        "frac_recovered": 8.730207033902567e-06
+      },
+      {
+        "clean_conf": 0.9999568462371826,
+        "corrupt_conf": 2.4608892999822274e-05,
+        "patched_conf": 6.394211231963709e-05,
+        "denom": 0.9999322373441828,
+        "frac_recovered": 3.9335884823839396e-05
+      },
+      {
+        "clean_conf": 0.2138550579547882,
+        "corrupt_conf": 0.00027115261764265597,
+        "patched_conf": 0.02703421749174595,
+        "denom": 0.21358390533714555,
+        "frac_recovered": 0.12530468918927845
+      },
+      {
+        "clean_conf": 0.9997836947441101,
+        "corrupt_conf": 0.9893823862075806,
+        "patched_conf": 0.9806119799613953,
+        "denom": 0.010401308536529541,
+        "frac_recovered": -0.843202200510014
+      },
+      {
+        "clean_conf": 0.9990099668502808,
+        "corrupt_conf": 0.00011217875726288185,
+        "patched_conf": 0.0003833123482763767,
+        "denom": 0.9988977880930179,
+        "frac_recovered": 0.00027143276744171424
+      },
+      {
+        "clean_conf": 0.058375369757413864,
+        "corrupt_conf": 0.10583889484405518,
+        "patched_conf": 0.11476834863424301,
+        "denom": -0.04746352508664131,
+        "frac_recovered": -0.18813296681794597
+      },
+      {
+        "clean_conf": 0.9803354740142822,
+        "corrupt_conf": 0.00547399977222085,
+        "patched_conf": 0.032455217093229294,
+        "denom": 0.9748614742420614,
+        "frac_recovered": 0.027676975687223555
+      },
+      {
+        "clean_conf": 0.9999791383743286,
+        "corrupt_conf": 2.89216330884301e-07,
+        "patched_conf": 3.1358977139461786e-05,
+        "denom": 0.9999788491579977,
+        "frac_recovered": 3.1070417974079e-05
+      },
+      {
+        "clean_conf": 0.9960846900939941,
+        "corrupt_conf": 0.7324880957603455,
+        "patched_conf": 0.8825405836105347,
+        "denom": 0.2635965943336487,
+        "frac_recovered": 0.5692504799977026
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 6.196860340423882e-05,
+        "patched_conf": 0.06024569272994995,
+        "denom": 0.9999380313965958,
+        "frac_recovered": 0.060187453859003814
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 4.92286631015304e-07,
+        "patched_conf": 0.8959301114082336,
+        "denom": 0.999998434829763,
+        "frac_recovered": 0.8959310214061718
+      },
+      {
+        "clean_conf": 0.9999752044677734,
+        "corrupt_conf": 1.5507023363170447e-06,
+        "patched_conf": 0.00032208379707299173,
+        "denom": 0.9999736537654371,
+        "frac_recovered": 0.0003205415397992694
+      },
+      {
+        "clean_conf": 0.9979658126831055,
+        "corrupt_conf": 6.0532797760970425e-06,
+        "patched_conf": 0.0002568437485024333,
+        "denom": 0.9979597594033294,
+        "frac_recovered": 0.0002513031876919381
+      },
+      {
+        "clean_conf": 0.23258322477340698,
+        "corrupt_conf": 1.0539408776821801e-06,
+        "patched_conf": 7.854319119360298e-05,
+        "denom": 0.2325821708325293,
+        "frac_recovered": 0.00033316934844381045
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 6.1802802520105615e-06,
+        "patched_conf": 0.04217405244708061,
+        "denom": 0.9999916739525361,
+        "frac_recovered": 0.042168223261456944
+      },
+      {
+        "clean_conf": 0.9999887943267822,
+        "corrupt_conf": 0.6840956211090088,
+        "patched_conf": 0.9947900772094727,
+        "denom": 0.31589317321777344,
+        "frac_recovered": 0.9835428000410581
+      },
+      {
+        "clean_conf": 0.9865307211875916,
+        "corrupt_conf": 0.9394267201423645,
+        "patched_conf": 0.9316107630729675,
+        "denom": 0.04710400104522705,
+        "frac_recovered": -0.1659297914394248
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 1.069153938715317e-07,
+        "patched_conf": 0.343632310628891,
+        "denom": 0.999999654666027,
+        "frac_recovered": 0.3436323223814122
+      },
+      {
+        "clean_conf": 0.9995371103286743,
+        "corrupt_conf": 0.450822651386261,
+        "patched_conf": 0.9909034371376038,
+        "denom": 0.5487144589424133,
+        "frac_recovered": 0.9842656357047507
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 0.0036481358110904694,
+        "patched_conf": 0.06958169490098953,
+        "denom": 0.9963513873517513,
+        "frac_recovered": 0.06617500605398556
+      },
+      {
+        "clean_conf": 0.9464777708053589,
+        "corrupt_conf": 2.636332283145748e-06,
+        "patched_conf": 3.174374796799384e-05,
+        "denom": 0.9464751344730757,
+        "frac_recovered": 3.075349222042992e-05
+      },
+      {
+        "clean_conf": 0.9999948740005493,
+        "corrupt_conf": 0.0010723235318437219,
+        "patched_conf": 0.0036046102177351713,
+        "denom": 0.9989225504687056,
+        "frac_recovered": 0.0025350180398903523
+      },
+      {
+        "clean_conf": 0.9980828762054443,
+        "corrupt_conf": 0.8745058178901672,
+        "patched_conf": 0.9774795174598694,
+        "denom": 0.1235770583152771,
+        "frac_recovered": 0.8332752128391789
+      },
+      {
+        "clean_conf": 0.9999092817306519,
+        "corrupt_conf": 0.059414081275463104,
+        "patched_conf": 0.17392279207706451,
+        "denom": 0.9404952004551888,
+        "frac_recovered": 0.12175363653762457
+      },
+      {
+        "clean_conf": 0.9525880217552185,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.56767737865448,
+        "denom": 0.5430997908115387,
+        "frac_recovered": 0.2912708684244245
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 8.440846613666508e-06,
+        "patched_conf": 0.5037848353385925,
+        "denom": 0.9999914399440968,
+        "frac_recovered": 0.5037807068829927
+      },
+      {
+        "clean_conf": 0.9974059462547302,
+        "corrupt_conf": 0.007510352414101362,
+        "patched_conf": 0.060220327228307724,
+        "denom": 0.9898955938406289,
+        "frac_recovered": 0.05324801437866846
+      },
+      {
+        "clean_conf": 0.9132049083709717,
+        "corrupt_conf": 0.8779352307319641,
+        "patched_conf": 0.8598181009292603,
+        "denom": 0.03526967763900757,
+        "frac_recovered": -0.513674380246296
+      },
+      {
+        "clean_conf": 0.9999164342880249,
+        "corrupt_conf": 0.10147520899772644,
+        "patched_conf": 0.7718315720558167,
+        "denom": 0.8984412252902985,
+        "frac_recovered": 0.7461326842404066
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 0.01948966458439827,
+        "patched_conf": 0.05552297830581665,
+        "denom": 0.9805037789046764,
+        "frac_recovered": 0.03674979586684643
+      },
+      {
+        "clean_conf": 0.999969482421875,
+        "corrupt_conf": 0.9928406476974487,
+        "patched_conf": 0.9991022348403931,
+        "denom": 0.0071288347244262695,
+        "frac_recovered": 0.8783465159445494
+      },
+      {
+        "clean_conf": 0.997938334941864,
+        "corrupt_conf": 0.9999316930770874,
+        "patched_conf": 0.9998377561569214,
+        "denom": -0.0019933581352233887,
+        "frac_recovered": 0.04712495888526747
+      },
+      {
+        "clean_conf": 0.9995474219322205,
+        "corrupt_conf": 0.02157892845571041,
+        "patched_conf": 0.1343710571527481,
+        "denom": 0.97796849347651,
+        "frac_recovered": 0.115333090431248
+      },
+      {
+        "clean_conf": 0.9999945163726807,
+        "corrupt_conf": 7.436138389493863e-07,
+        "patched_conf": 0.00011475972860353068,
+        "denom": 0.9999937727588417,
+        "frac_recovered": 0.00011401682477484526
+      },
+      {
+        "clean_conf": 0.9999518394470215,
+        "corrupt_conf": 5.636460969071777e-07,
+        "patched_conf": 0.00013545922411140054,
+        "denom": 0.9999512758009246,
+        "frac_recovered": 0.00013490215101375505
+      },
+      {
+        "clean_conf": 0.9998946189880371,
+        "corrupt_conf": 0.0005852272734045982,
+        "patched_conf": 0.16164910793304443,
+        "denom": 0.9993093917146325,
+        "frac_recovered": 0.1611751895809601
+      },
+      {
+        "clean_conf": 0.9967071413993835,
+        "corrupt_conf": 0.9877838492393494,
+        "patched_conf": 0.9564670324325562,
+        "denom": 0.00892329216003418,
+        "frac_recovered": -3.509558607422449
+      },
+      {
+        "clean_conf": 0.9998177886009216,
+        "corrupt_conf": 0.07410693913698196,
+        "patched_conf": 0.3017520010471344,
+        "denom": 0.9257108494639397,
+        "frac_recovered": 0.24591378835192118
+      },
+      {
+        "clean_conf": 0.9710168838500977,
+        "corrupt_conf": 2.6706591143010883e-06,
+        "patched_conf": 1.2309443263802677e-05,
+        "denom": 0.9710142131909834,
+        "frac_recovered": 9.92651190740685e-06
+      },
+      {
+        "clean_conf": 0.1155250146985054,
+        "corrupt_conf": 7.237450063257711e-06,
+        "patched_conf": 2.709739055717364e-05,
+        "denom": 0.11551777724844214,
+        "frac_recovered": 0.0001719210754133841
+      },
+      {
+        "clean_conf": 0.9998879432678223,
+        "corrupt_conf": 0.6786221265792847,
+        "patched_conf": 0.36215323209762573,
+        "denom": 0.3212658166885376,
+        "frac_recovered": -0.985068681578628
+      },
+      {
+        "clean_conf": 0.9977516531944275,
+        "corrupt_conf": 0.9559327363967896,
+        "patched_conf": 0.9724446535110474,
+        "denom": 0.04181891679763794,
+        "frac_recovered": 0.39484325225732425
+      },
+      {
+        "clean_conf": 0.99998939037323,
+        "corrupt_conf": 0.00527404947206378,
+        "patched_conf": 0.021219851449131966,
+        "denom": 0.9947153409011662,
+        "frac_recovered": 0.016030517798812698
+      },
+      {
+        "clean_conf": 0.9712470173835754,
+        "corrupt_conf": 0.9595231413841248,
+        "patched_conf": 0.9906697273254395,
+        "denom": 0.011723875999450684,
+        "frac_recovered": 2.6566799190620967
+      },
+      {
+        "clean_conf": 0.5871012210845947,
+        "corrupt_conf": 7.708531484240666e-06,
+        "patched_conf": 0.0007445453084073961,
+        "denom": 0.5870935125531105,
+        "frac_recovered": 0.0012550586255311391
+      },
+      {
+        "clean_conf": 0.54350745677948,
+        "corrupt_conf": 0.833796501159668,
+        "patched_conf": 0.992601215839386,
+        "denom": -0.290289044380188,
+        "frac_recovered": -0.5470572098881329
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 0.9997084736824036,
+        "patched_conf": 0.9999842643737793,
+        "denom": 0.0002911686897277832,
+        "frac_recovered": 0.9471852610030707
+      },
+      {
+        "clean_conf": 0.5184811949729919,
+        "corrupt_conf": 0.012963160872459412,
+        "patched_conf": 0.01358309667557478,
+        "denom": 0.5055180341005325,
+        "frac_recovered": 0.0012263376601755044
+      },
+      {
+        "clean_conf": 0.9991565942764282,
+        "corrupt_conf": 8.46127477416303e-06,
+        "patched_conf": 2.7526606572791934e-05,
+        "denom": 0.9991481330016541,
+        "frac_recovered": 1.9081586772676623e-05
+      },
+      {
+        "clean_conf": 0.999981164932251,
+        "corrupt_conf": 5.16009595230571e-06,
+        "patched_conf": 0.023175973445177078,
+        "denom": 0.9999760048362987,
+        "frac_recovered": 0.02317136935002551
+      },
+      {
+        "clean_conf": 0.9999988079071045,
+        "corrupt_conf": 4.048473329021363e-06,
+        "patched_conf": 0.0014045702992007136,
+        "denom": 0.9999947594337755,
+        "frac_recovered": 0.0014005291654375332
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 8.776195272730547e-07,
+        "patched_conf": 9.364358993479982e-05,
+        "denom": 0.9999981687061563,
+        "frac_recovered": 9.276614028958838e-05
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 5.812364634039113e-07,
+        "patched_conf": 3.5362460039323196e-05,
+        "denom": 0.9999973922056142,
+        "frac_recovered": 3.4781314278435386e-05
+      },
+      {
+        "clean_conf": 0.988244891166687,
+        "corrupt_conf": 0.6452434659004211,
+        "patched_conf": 0.41831353306770325,
+        "denom": 0.34300142526626587,
+        "frac_recovered": -0.6616005535736659
+      },
+      {
+        "clean_conf": 0.9985184073448181,
+        "corrupt_conf": 0.9995434880256653,
+        "patched_conf": 0.999489426612854,
+        "denom": -0.001025080680847168,
+        "frac_recovered": 0.052738690545412255
+      },
+      {
+        "clean_conf": 0.9990379810333252,
+        "corrupt_conf": 0.0005027009174227715,
+        "patched_conf": 0.014778939075767994,
+        "denom": 0.9985352801159024,
+        "frac_recovered": 0.014297179521476843
+      },
+      {
+        "clean_conf": 0.9832346439361572,
+        "corrupt_conf": 0.9435730576515198,
+        "patched_conf": 0.8994928002357483,
+        "denom": 0.03966158628463745,
+        "frac_recovered": -1.1114093394909312
+      },
+      {
+        "clean_conf": 0.9998157620429993,
+        "corrupt_conf": 0.000113057998532895,
+        "patched_conf": 0.041307952255010605,
+        "denom": 0.9997027040444664,
+        "frac_recovered": 0.041207144974017576
+      },
+      {
+        "clean_conf": 0.0021997939329594374,
+        "corrupt_conf": 0.0009983007330447435,
+        "patched_conf": 7.32873086235486e-05,
+        "denom": 0.0012014931999146938,
+        "frac_recovered": -0.769886524939859
+      },
+      {
+        "clean_conf": 0.8034820556640625,
+        "corrupt_conf": 0.9914548397064209,
+        "patched_conf": 0.9914509654045105,
+        "denom": -0.1879727840423584,
+        "frac_recovered": 2.0610972647653836e-05
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.82638961077464e-07,
+        "patched_conf": 0.002700476674363017,
+        "denom": 0.9999987021053016,
+        "frac_recovered": 0.0026998975395846423
+      },
+      {
+        "clean_conf": 0.15644590556621552,
+        "corrupt_conf": 0.00016483223589602858,
+        "patched_conf": 0.042697302997112274,
+        "denom": 0.1562810733303195,
+        "frac_recovered": 0.27215368985416794
+      },
+      {
+        "clean_conf": 0.9999903440475464,
+        "corrupt_conf": 4.103368155483622e-06,
+        "patched_conf": 0.5125035643577576,
+        "denom": 0.9999862406793909,
+        "frac_recovered": 0.512506512731025
+      },
+      {
+        "clean_conf": 0.40091025829315186,
+        "corrupt_conf": 9.113506393987336e-07,
+        "patched_conf": 7.269455818459392e-05,
+        "denom": 0.40090934694251246,
+        "frac_recovered": 0.00017905097023215172
+      },
+      {
+        "clean_conf": 0.9806011915206909,
+        "corrupt_conf": 6.484330697276164e-06,
+        "patched_conf": 0.00031620622030459344,
+        "denom": 0.9805947071899936,
+        "frac_recovered": 0.00031585107214667803
+      },
+      {
+        "clean_conf": 0.9877712726593018,
+        "corrupt_conf": 1.8361935872235335e-05,
+        "patched_conf": 8.276030712295324e-05,
+        "denom": 0.9877529107234295,
+        "frac_recovered": 6.519684280510253e-05
+      },
+      {
+        "clean_conf": 0.8950383067131042,
+        "corrupt_conf": 0.9898876547813416,
+        "patched_conf": 0.9711711406707764,
+        "denom": -0.0948493480682373,
+        "frac_recovered": 0.1973288640539732
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 0.0007457449100911617,
+        "patched_conf": 0.015413287095725536,
+        "denom": 0.9992542550899088,
+        "frac_recovered": 0.014678488593791025
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 2.555038236096152e-06,
+        "patched_conf": 3.180396743118763e-05,
+        "denom": 0.9999973257524744,
+        "frac_recovered": 2.9249007414177183e-05
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.3092170547679416e-06,
+        "patched_conf": 0.0015235076425597072,
+        "denom": 0.9999985715736557,
+        "frac_recovered": 0.0015222005998563775
+      },
+      {
+        "clean_conf": 0.22623030841350555,
+        "corrupt_conf": 2.7808880531665636e-06,
+        "patched_conf": 0.0003131908888462931,
+        "denom": 0.2262275275254524,
+        "frac_recovered": 0.0013721141904722578
+      },
+      {
+        "clean_conf": 0.9989880919456482,
+        "corrupt_conf": 0.07442785054445267,
+        "patched_conf": 0.9043179750442505,
+        "denom": 0.9245602414011955,
+        "frac_recovered": 0.8976052477035756
+      },
+      {
+        "clean_conf": 0.9980669617652893,
+        "corrupt_conf": 0.9998251795768738,
+        "patched_conf": 0.9990836381912231,
+        "denom": -0.0017582178115844727,
+        "frac_recovered": 0.42175740728184963
+      },
+      {
+        "clean_conf": 0.9977255463600159,
+        "corrupt_conf": 0.396145224571228,
+        "patched_conf": 0.4981703758239746,
+        "denom": 0.6015803217887878,
+        "frac_recovered": 0.16959522703365146
+      },
+      {
+        "clean_conf": 0.11440800875425339,
+        "corrupt_conf": 2.1190148800087627e-06,
+        "patched_conf": 6.380487775459187e-06,
+        "denom": 0.11440588973937338,
+        "frac_recovered": 3.7248719494760564e-05
+      }
+    ],
+    "4": [
+      {
+        "clean_conf": 0.999994158744812,
+        "corrupt_conf": 0.01906023733317852,
+        "patched_conf": 0.9800800681114197,
+        "denom": 0.9809339214116335,
+        "frac_recovered": 0.9796988459684067
+      },
+      {
+        "clean_conf": 0.7084962129592896,
+        "corrupt_conf": 0.9855072498321533,
+        "patched_conf": 0.78855299949646,
+        "denom": -0.27701103687286377,
+        "frac_recovered": 0.710997845281114
+      },
+      {
+        "clean_conf": 0.9962061643600464,
+        "corrupt_conf": 0.0007761984597891569,
+        "patched_conf": 0.9999854564666748,
+        "denom": 0.9954299659002572,
+        "frac_recovered": 1.0037966428941192
+      },
+      {
+        "clean_conf": 0.9971298575401306,
+        "corrupt_conf": 0.014882354065775871,
+        "patched_conf": 0.42888641357421875,
+        "denom": 0.9822475034743547,
+        "frac_recovered": 0.42148649708352454
+      },
+      {
+        "clean_conf": 0.20073413848876953,
+        "corrupt_conf": 0.004032258875668049,
+        "patched_conf": 0.0002884793793782592,
+        "denom": 0.19670187961310148,
+        "frac_recovered": -0.019032759136077073
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 4.96041707265249e-07,
+        "patched_conf": 0.019123058766126633,
+        "denom": 0.9999929474473674,
+        "frac_recovered": 0.019122697588250585
+      },
+      {
+        "clean_conf": 1.692784280749038e-05,
+        "corrupt_conf": 0.5948514342308044,
+        "patched_conf": 0.011540794745087624,
+        "denom": -0.594834506387997,
+        "frac_recovered": 0.9806267679858448
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.51907123735873e-06,
+        "patched_conf": 0.7992352247238159,
+        "denom": 0.9999934080451567,
+        "frac_recovered": 0.7992349741734375
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 1.736032572807744e-05,
+        "patched_conf": 0.4023180902004242,
+        "denom": 0.9999806131163496,
+        "frac_recovered": 0.4023085293833468
+      },
+      {
+        "clean_conf": 0.31532323360443115,
+        "corrupt_conf": 0.001225300831720233,
+        "patched_conf": 6.591247802134603e-05,
+        "denom": 0.3140979327727109,
+        "frac_recovered": -0.003691168367344363
+      },
+      {
+        "clean_conf": 0.9999512434005737,
+        "corrupt_conf": 3.9196038414957e-06,
+        "patched_conf": 0.0018826803425326943,
+        "denom": 0.9999473237967322,
+        "frac_recovered": 0.0018788597098871882
+      },
+      {
+        "clean_conf": 0.999716579914093,
+        "corrupt_conf": 0.993343710899353,
+        "patched_conf": 0.9579713940620422,
+        "denom": 0.00637286901473999,
+        "frac_recovered": -5.550454082062122
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 5.29601275047753e-05,
+        "patched_conf": 0.9809834361076355,
+        "denom": 0.999946563035337,
+        "frac_recovered": 0.9809828967285182
+      },
+      {
+        "clean_conf": 0.9196568727493286,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.48509231209754944,
+        "denom": 0.5101686418056488,
+        "frac_recovered": 0.1481942929425901
+      },
+      {
+        "clean_conf": 0.9987063407897949,
+        "corrupt_conf": 0.9996765851974487,
+        "patched_conf": 0.9999258518218994,
+        "denom": -0.0009702444076538086,
+        "frac_recovered": -0.2569111684482123
+      },
+      {
+        "clean_conf": 0.9999984502792358,
+        "corrupt_conf": 0.03935999423265457,
+        "patched_conf": 0.350567489862442,
+        "denom": 0.9606384560465813,
+        "frac_recovered": 0.3239590229507708
+      },
+      {
+        "clean_conf": 0.9340134263038635,
+        "corrupt_conf": 0.7830493450164795,
+        "patched_conf": 0.8548056483268738,
+        "denom": 0.15096408128738403,
+        "frac_recovered": 0.47532037222678686
+      },
+      {
+        "clean_conf": 0.9768757820129395,
+        "corrupt_conf": 0.9229055643081665,
+        "patched_conf": 0.986294686794281,
+        "denom": 0.05397021770477295,
+        "frac_recovered": 1.174520414812197
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 5.106040248392674e-07,
+        "patched_conf": 0.9822853803634644,
+        "denom": 0.9999993701866856,
+        "frac_recovered": 0.9822854884159187
+      },
+      {
+        "clean_conf": 0.9994508624076843,
+        "corrupt_conf": 0.9979140162467957,
+        "patched_conf": 0.9990200996398926,
+        "denom": 0.0015368461608886719,
+        "frac_recovered": 0.7197098976109215
+      },
+      {
+        "clean_conf": 2.9853977139282506e-06,
+        "corrupt_conf": 0.11218808591365814,
+        "patched_conf": 0.0003962226037401706,
+        "denom": -0.11218510051594421,
+        "frac_recovered": 0.9964947465909668
+      },
+      {
+        "clean_conf": 0.9969643950462341,
+        "corrupt_conf": 0.7768816351890564,
+        "patched_conf": 0.9685102105140686,
+        "denom": 0.22008275985717773,
+        "frac_recovered": 0.8707114335051468
+      },
+      {
+        "clean_conf": 0.999606192111969,
+        "corrupt_conf": 0.9050228595733643,
+        "patched_conf": 0.9955646991729736,
+        "denom": 0.09458333253860474,
+        "frac_recovered": 0.9572705588762608
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 0.9996731281280518,
+        "patched_conf": 0.9999843835830688,
+        "denom": 0.0003255605697631836,
+        "frac_recovered": 0.9560600512632735
+      },
+      {
+        "clean_conf": 0.9981279969215393,
+        "corrupt_conf": 0.014097815379500389,
+        "patched_conf": 0.3173336684703827,
+        "denom": 0.9840301815420389,
+        "frac_recovered": 0.30815706548318683
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.1555470337043516e-05,
+        "patched_conf": 0.9981511235237122,
+        "denom": 0.9999883253203734,
+        "frac_recovered": 0.9981512211491009
+      },
+      {
+        "clean_conf": 0.9495097398757935,
+        "corrupt_conf": 0.2019936740398407,
+        "patched_conf": 0.24955891072750092,
+        "denom": 0.7475160658359528,
+        "frac_recovered": 0.06363105605558814
+      },
+      {
+        "clean_conf": 0.9992656111717224,
+        "corrupt_conf": 0.6197432279586792,
+        "patched_conf": 0.9638664722442627,
+        "denom": 0.3795223832130432,
+        "frac_recovered": 0.9067271378626737
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.4183483371161856e-06,
+        "patched_conf": 0.9999392032623291,
+        "denom": 0.9999935087680569,
+        "frac_recovered": 0.9999402757582512
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 0.00030703205266036093,
+        "patched_conf": 0.011695568449795246,
+        "denom": 0.9996920142730232,
+        "frac_recovered": 0.011392044984391154
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 3.904861785031244e-07,
+        "patched_conf": 0.7740192413330078,
+        "denom": 0.999999490304532,
+        "frac_recovered": 0.7740192453609308
+      },
+      {
+        "clean_conf": 0.9999669790267944,
+        "corrupt_conf": 7.498951890738681e-05,
+        "patched_conf": 0.04005445912480354,
+        "denom": 0.999891989507887,
+        "frac_recovered": 0.03998378827454423
+      },
+      {
+        "clean_conf": 0.9999985694885254,
+        "corrupt_conf": 8.29427062853938e-06,
+        "patched_conf": 0.9942625164985657,
+        "denom": 0.9999902752178969,
+        "frac_recovered": 0.9942638912276324
+      },
+      {
+        "clean_conf": 0.9998028874397278,
+        "corrupt_conf": 0.19323691725730896,
+        "patched_conf": 0.6566973328590393,
+        "denom": 0.8065659701824188,
+        "frac_recovered": 0.5746094339895232
+      },
+      {
+        "clean_conf": 0.9999281167984009,
+        "corrupt_conf": 0.06627816706895828,
+        "patched_conf": 0.6729229688644409,
+        "denom": 0.9336499497294426,
+        "frac_recovered": 0.649756155367736
+      },
+      {
+        "clean_conf": 0.9998465776443481,
+        "corrupt_conf": 0.21834422647953033,
+        "patched_conf": 0.2798217535018921,
+        "denom": 0.7815023511648178,
+        "frac_recovered": 0.07866582478060417
+      },
+      {
+        "clean_conf": 0.9964445233345032,
+        "corrupt_conf": 2.1555228158831596e-05,
+        "patched_conf": 0.03606907278299332,
+        "denom": 0.9964229681063443,
+        "frac_recovered": 0.03617692356423811
+      },
+      {
+        "clean_conf": 0.999885082244873,
+        "corrupt_conf": 0.9912934899330139,
+        "patched_conf": 0.9988319277763367,
+        "denom": 0.00859159231185913,
+        "frac_recovered": 0.8774203395239449
+      },
+      {
+        "clean_conf": 0.9651020169258118,
+        "corrupt_conf": 0.0033404668793082237,
+        "patched_conf": 0.018364477902650833,
+        "denom": 0.9617615500465035,
+        "frac_recovered": 0.015621347123531982
+      },
+      {
+        "clean_conf": 0.9995232820510864,
+        "corrupt_conf": 0.9989894032478333,
+        "patched_conf": 0.9973952770233154,
+        "denom": 0.0005338788032531738,
+        "frac_recovered": -2.985932789996651
+      },
+      {
+        "clean_conf": 3.5460984690871555e-06,
+        "corrupt_conf": 0.9745261669158936,
+        "patched_conf": 0.010255882516503334,
+        "denom": -0.9745226208174245,
+        "frac_recovered": 0.9894796321819245
+      },
+      {
+        "clean_conf": 0.9984357953071594,
+        "corrupt_conf": 3.280673627159558e-05,
+        "patched_conf": 0.0006504488410428166,
+        "denom": 0.9984029885708878,
+        "frac_recovered": 0.0006186300640539076
+      },
+      {
+        "clean_conf": 0.9894724488258362,
+        "corrupt_conf": 0.7965558171272278,
+        "patched_conf": 0.96091628074646,
+        "denom": 0.1929166316986084,
+        "frac_recovered": 0.8519766397124887
+      },
+      {
+        "clean_conf": 0.36824098229408264,
+        "corrupt_conf": 4.868438736593816e-07,
+        "patched_conf": 3.019233736267779e-05,
+        "denom": 0.368240495450209,
+        "frac_recovered": 8.066873104952953e-05
+      },
+      {
+        "clean_conf": 0.9970199465751648,
+        "corrupt_conf": 0.9928923845291138,
+        "patched_conf": 0.988219141960144,
+        "denom": 0.004127562046051025,
+        "frac_recovered": -1.1322040751490996
+      },
+      {
+        "clean_conf": 0.9985176920890808,
+        "corrupt_conf": 0.8585501909255981,
+        "patched_conf": 0.977600634098053,
+        "denom": 0.13996750116348267,
+        "frac_recovered": 0.8505577522128039
+      },
+      {
+        "clean_conf": 0.9821453094482422,
+        "corrupt_conf": 2.631292090882198e-06,
+        "patched_conf": 0.08108397573232651,
+        "denom": 0.9821426781561513,
+        "frac_recovered": 0.08255556574779502
+      },
+      {
+        "clean_conf": 0.9996583461761475,
+        "corrupt_conf": 3.8860791391925886e-05,
+        "patched_conf": 0.04197937622666359,
+        "denom": 0.9996194853847555,
+        "frac_recovered": 0.04195648048930206
+      },
+      {
+        "clean_conf": 0.9481333494186401,
+        "corrupt_conf": 0.5032225847244263,
+        "patched_conf": 0.5240744948387146,
+        "denom": 0.44491076469421387,
+        "frac_recovered": 0.046867623283108915
+      },
+      {
+        "clean_conf": 0.9998337030410767,
+        "corrupt_conf": 0.4273855686187744,
+        "patched_conf": 0.5264454483985901,
+        "denom": 0.5724481344223022,
+        "frac_recovered": 0.17304603478144615
+      },
+      {
+        "clean_conf": 0.997793436050415,
+        "corrupt_conf": 0.001988030271604657,
+        "patched_conf": 0.010168761946260929,
+        "denom": 0.9958054057788104,
+        "frac_recovered": 0.00821519106763454
+      },
+      {
+        "clean_conf": 4.7650872147642076e-05,
+        "corrupt_conf": 0.9961651563644409,
+        "patched_conf": 0.7012655138969421,
+        "denom": -0.9961175054922933,
+        "frac_recovered": 0.29604905128311726
+      },
+      {
+        "clean_conf": 0.7593162059783936,
+        "corrupt_conf": 3.672240382002201e-06,
+        "patched_conf": 4.5324046368477866e-05,
+        "denom": 0.7593125337380116,
+        "frac_recovered": 5.4854627226325945e-05
+      },
+      {
+        "clean_conf": 0.9961769580841064,
+        "corrupt_conf": 9.541969120618887e-06,
+        "patched_conf": 0.009500404819846153,
+        "denom": 0.9961674161149858,
+        "frac_recovered": 0.009527377323522115
+      },
+      {
+        "clean_conf": 0.9961330890655518,
+        "corrupt_conf": 2.093929197144462e-06,
+        "patched_conf": 0.0036232001148164272,
+        "denom": 0.9961309951363546,
+        "frac_recovered": 0.0036351706786551807
+      },
+      {
+        "clean_conf": 0.9949100613594055,
+        "corrupt_conf": 4.88206922000245e-07,
+        "patched_conf": 0.00040621752850711346,
+        "denom": 0.9949095731524835,
+        "frac_recovered": 0.0004078052242471785
+      },
+      {
+        "clean_conf": 0.9680280685424805,
+        "corrupt_conf": 0.7365713715553284,
+        "patched_conf": 0.9308081865310669,
+        "denom": 0.2314566969871521,
+        "frac_recovered": 0.8391928922519809
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 3.010199861819274e-06,
+        "patched_conf": 0.5563297271728516,
+        "denom": 0.9999948440329263,
+        "frac_recovered": 0.5563295853900142
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 2.8819241038036125e-07,
+        "patched_conf": 0.9345382452011108,
+        "denom": 0.999999354179721,
+        "frac_recovered": 0.9345385605526544
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 4.429557975527132e-06,
+        "patched_conf": 0.9838182330131531,
+        "denom": 0.9999942591398394,
+        "frac_recovered": 0.9838194514250714
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.831012003909564e-06,
+        "patched_conf": 0.914251446723938,
+        "denom": 0.9999934537322588,
+        "frac_recovered": 0.9142516006476947
+      },
+      {
+        "clean_conf": 0.9998611211776733,
+        "corrupt_conf": 0.9989187717437744,
+        "patched_conf": 0.999626874923706,
+        "denom": 0.0009423494338989258,
+        "frac_recovered": 0.7514231499051234
+      },
+      {
+        "clean_conf": 0.998540997505188,
+        "corrupt_conf": 0.30325019359588623,
+        "patched_conf": 0.8743444681167603,
+        "denom": 0.6952908039093018,
+        "frac_recovered": 0.8213746986295123
+      },
+      {
+        "clean_conf": 0.00935766939073801,
+        "corrupt_conf": 6.875675899209455e-05,
+        "patched_conf": 5.258488727122312e-06,
+        "denom": 0.009288912631745916,
+        "frac_recovered": -0.006835920713470775
+      },
+      {
+        "clean_conf": 0.9971494078636169,
+        "corrupt_conf": 0.9905297160148621,
+        "patched_conf": 0.9934889078140259,
+        "denom": 0.006619691848754883,
+        "frac_recovered": 0.4470286331712588
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 0.0005568381166085601,
+        "patched_conf": 0.999970555305481,
+        "denom": 0.9994430426741019,
+        "frac_recovered": 0.9999706581726248
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 4.603443812811747e-07,
+        "patched_conf": 0.910504162311554,
+        "denom": 0.9999993012370396,
+        "frac_recovered": 0.9105043381938794
+      },
+      {
+        "clean_conf": 0.999967098236084,
+        "corrupt_conf": 0.010724429041147232,
+        "patched_conf": 0.051659148186445236,
+        "denom": 0.9892426691949368,
+        "frac_recovered": 0.04137985594435732
+      },
+      {
+        "clean_conf": 0.15067258477210999,
+        "corrupt_conf": 3.773506591642217e-07,
+        "patched_conf": 0.010905250906944275,
+        "denom": 0.15067220742145082,
+        "frac_recovered": 0.07237481777765878
+      },
+      {
+        "clean_conf": 0.07867904007434845,
+        "corrupt_conf": 7.315766197280027e-07,
+        "patched_conf": 8.701284173184831e-07,
+        "denom": 0.07867830849772872,
+        "frac_recovered": 1.7609910563148433e-06
+      },
+      {
+        "clean_conf": 0.041817788034677505,
+        "corrupt_conf": 1.7786189232538163e-07,
+        "patched_conf": 1.3672808663045544e-08,
+        "denom": 0.04181761017278518,
+        "frac_recovered": -3.926314368131683e-06
+      },
+      {
+        "clean_conf": 0.9834596514701843,
+        "corrupt_conf": 0.4625832140445709,
+        "patched_conf": 0.6840871572494507,
+        "denom": 0.5208764374256134,
+        "frac_recovered": 0.42525237712737357
+      },
+      {
+        "clean_conf": 0.94028240442276,
+        "corrupt_conf": 8.817521006676543e-07,
+        "patched_conf": 0.0014714727876707911,
+        "denom": 0.9402815226706593,
+        "frac_recovered": 0.0015639901456249387
+      },
+      {
+        "clean_conf": 0.984900712966919,
+        "corrupt_conf": 0.9997243285179138,
+        "patched_conf": 0.9981768131256104,
+        "denom": -0.014823615550994873,
+        "frac_recovered": 0.10439527300069562
+      },
+      {
+        "clean_conf": 0.9842574596405029,
+        "corrupt_conf": 0.4373839497566223,
+        "patched_conf": 0.9396975636482239,
+        "denom": 0.5468735098838806,
+        "frac_recovered": 0.9185188253098224
+      },
+      {
+        "clean_conf": 0.4191018342971802,
+        "corrupt_conf": 5.775332851953863e-07,
+        "patched_conf": 0.002208259655162692,
+        "denom": 0.419101256763895,
+        "frac_recovered": 0.005267658080827987
+      },
+      {
+        "clean_conf": 0.9999568462371826,
+        "corrupt_conf": 2.4608892999822274e-05,
+        "patched_conf": 0.006746254861354828,
+        "denom": 0.9999322373441828,
+        "frac_recovered": 0.006722101475803679
+      },
+      {
+        "clean_conf": 0.2138550579547882,
+        "corrupt_conf": 0.00027115261764265597,
+        "patched_conf": 0.011731848120689392,
+        "denom": 0.21358390533714555,
+        "frac_recovered": 0.05365898467375549
+      },
+      {
+        "clean_conf": 0.9997836947441101,
+        "corrupt_conf": 0.9893823862075806,
+        "patched_conf": 0.9974529147148132,
+        "denom": 0.010401308536529541,
+        "frac_recovered": 0.775914730236956
+      },
+      {
+        "clean_conf": 0.9990099668502808,
+        "corrupt_conf": 0.00011217875726288185,
+        "patched_conf": 0.00045221945038065314,
+        "denom": 0.9988977880930179,
+        "frac_recovered": 0.0003404159035800233
+      },
+      {
+        "clean_conf": 0.058375369757413864,
+        "corrupt_conf": 0.10583889484405518,
+        "patched_conf": 0.002906887326389551,
+        "denom": -0.04746352508664131,
+        "frac_recovered": 2.168654926699408
+      },
+      {
+        "clean_conf": 0.9803354740142822,
+        "corrupt_conf": 0.00547399977222085,
+        "patched_conf": 0.39424073696136475,
+        "denom": 0.9748614742420614,
+        "frac_recovered": 0.3987917744840656
+      },
+      {
+        "clean_conf": 0.9999791383743286,
+        "corrupt_conf": 2.89216330884301e-07,
+        "patched_conf": 0.035105325281620026,
+        "denom": 0.9999788491579977,
+        "frac_recovered": 0.035105778582065296
+      },
+      {
+        "clean_conf": 0.9960846900939941,
+        "corrupt_conf": 0.7324880957603455,
+        "patched_conf": 0.8329712152481079,
+        "denom": 0.2635965943336487,
+        "frac_recovered": 0.3812003707474894
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 6.196860340423882e-05,
+        "patched_conf": 0.9686263203620911,
+        "denom": 0.9999380313965958,
+        "frac_recovered": 0.9686243760584945
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 4.92286631015304e-07,
+        "patched_conf": 0.9345627427101135,
+        "denom": 0.999998434829763,
+        "frac_recovered": 0.9345637131747909
+      },
+      {
+        "clean_conf": 0.9999752044677734,
+        "corrupt_conf": 1.5507023363170447e-06,
+        "patched_conf": 0.2674125134944916,
+        "denom": 0.9999736537654371,
+        "frac_recovered": 0.26741800824972695
+      },
+      {
+        "clean_conf": 0.9979658126831055,
+        "corrupt_conf": 6.0532797760970425e-06,
+        "patched_conf": 0.38677990436553955,
+        "denom": 0.9979597594033294,
+        "frac_recovered": 0.3875645760676882
+      },
+      {
+        "clean_conf": 0.23258322477340698,
+        "corrupt_conf": 1.0539408776821801e-06,
+        "patched_conf": 5.809843059978448e-06,
+        "denom": 0.2325821708325293,
+        "frac_recovered": 2.0448266370859324e-05
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 6.1802802520105615e-06,
+        "patched_conf": 0.9958063364028931,
+        "denom": 0.9999916739525361,
+        "frac_recovered": 0.995808447271038
+      },
+      {
+        "clean_conf": 0.9999887943267822,
+        "corrupt_conf": 0.6840956211090088,
+        "patched_conf": 0.9875906705856323,
+        "denom": 0.31589317321777344,
+        "frac_recovered": 0.9607521630972292
+      },
+      {
+        "clean_conf": 0.9865307211875916,
+        "corrupt_conf": 0.9394267201423645,
+        "patched_conf": 0.9349286556243896,
+        "denom": 0.04710400104522705,
+        "frac_recovered": -0.09549219637745895
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 1.069153938715317e-07,
+        "patched_conf": 0.9273495078086853,
+        "denom": 0.999999654666027,
+        "frac_recovered": 0.927349721138655
+      },
+      {
+        "clean_conf": 0.9995371103286743,
+        "corrupt_conf": 0.450822651386261,
+        "patched_conf": 0.9743665456771851,
+        "denom": 0.5487144589424133,
+        "frac_recovered": 0.9541281184753128
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 0.0036481358110904694,
+        "patched_conf": 0.8796795010566711,
+        "denom": 0.9963513873517513,
+        "frac_recovered": 0.8792393691286216
+      },
+      {
+        "clean_conf": 0.9464777708053589,
+        "corrupt_conf": 2.636332283145748e-06,
+        "patched_conf": 0.0014001567615196109,
+        "denom": 0.9464751344730757,
+        "frac_recovered": 0.0014765527147361315
+      },
+      {
+        "clean_conf": 0.9999948740005493,
+        "corrupt_conf": 0.0010723235318437219,
+        "patched_conf": 0.9393635988235474,
+        "denom": 0.9989225504687056,
+        "frac_recovered": 0.9393033272213616
+      },
+      {
+        "clean_conf": 0.9980828762054443,
+        "corrupt_conf": 0.8745058178901672,
+        "patched_conf": 0.863426685333252,
+        "denom": 0.1235770583152771,
+        "frac_recovered": -0.08965363561778227
+      },
+      {
+        "clean_conf": 0.9999092817306519,
+        "corrupt_conf": 0.059414081275463104,
+        "patched_conf": 0.17248809337615967,
+        "denom": 0.9404952004551888,
+        "frac_recovered": 0.12022816495604662
+      },
+      {
+        "clean_conf": 0.9525880217552185,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.45358890295028687,
+        "denom": 0.5430997908115387,
+        "frac_recovered": 0.08120178418906895
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 8.440846613666508e-06,
+        "patched_conf": 0.48336127400398254,
+        "denom": 0.9999914399440968,
+        "frac_recovered": 0.48335697072005945
+      },
+      {
+        "clean_conf": 0.9974059462547302,
+        "corrupt_conf": 0.007510352414101362,
+        "patched_conf": 0.055739160627126694,
+        "denom": 0.9898955938406289,
+        "frac_recovered": 0.04872110605716068
+      },
+      {
+        "clean_conf": 0.9132049083709717,
+        "corrupt_conf": 0.8779352307319641,
+        "patched_conf": 0.8510108590126038,
+        "denom": 0.03526967763900757,
+        "frac_recovered": -0.7633858181222084
+      },
+      {
+        "clean_conf": 0.9999164342880249,
+        "corrupt_conf": 0.10147520899772644,
+        "patched_conf": 0.9423101544380188,
+        "denom": 0.8984412252902985,
+        "frac_recovered": 0.9358819717657182
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 0.01948966458439827,
+        "patched_conf": 0.2299068123102188,
+        "denom": 0.9805037789046764,
+        "frac_recovered": 0.21460105738794616
+      },
+      {
+        "clean_conf": 0.999969482421875,
+        "corrupt_conf": 0.9928406476974487,
+        "patched_conf": 0.9999685287475586,
+        "denom": 0.0071288347244262695,
+        "frac_recovered": 0.99986622297286
+      },
+      {
+        "clean_conf": 0.997938334941864,
+        "corrupt_conf": 0.9999316930770874,
+        "patched_conf": 0.9999032020568848,
+        "denom": -0.0019933581352233887,
+        "frac_recovered": 0.014292976108602697
+      },
+      {
+        "clean_conf": 0.9995474219322205,
+        "corrupt_conf": 0.02157892845571041,
+        "patched_conf": 0.7380055785179138,
+        "denom": 0.97796849347651,
+        "frac_recovered": 0.7325661867852509
+      },
+      {
+        "clean_conf": 0.9999945163726807,
+        "corrupt_conf": 7.436138389493863e-07,
+        "patched_conf": 0.06790700554847717,
+        "denom": 0.9999937727588417,
+        "frac_recovered": 0.06790668480594077
+      },
+      {
+        "clean_conf": 0.9999518394470215,
+        "corrupt_conf": 5.636460969071777e-07,
+        "patched_conf": 0.7602861523628235,
+        "denom": 0.9999512758009246,
+        "frac_recovered": 0.7603226348281475
+      },
+      {
+        "clean_conf": 0.9998946189880371,
+        "corrupt_conf": 0.0005852272734045982,
+        "patched_conf": 0.8233346939086914,
+        "denom": 0.9993093917146325,
+        "frac_recovered": 0.8233180569068793
+      },
+      {
+        "clean_conf": 0.9967071413993835,
+        "corrupt_conf": 0.9877838492393494,
+        "patched_conf": 0.910185694694519,
+        "denom": 0.00892329216003418,
+        "frac_recovered": -8.696135143078527
+      },
+      {
+        "clean_conf": 0.9998177886009216,
+        "corrupt_conf": 0.07410693913698196,
+        "patched_conf": 0.9215383529663086,
+        "denom": 0.9257108494639397,
+        "frac_recovered": 0.9154385673669666
+      },
+      {
+        "clean_conf": 0.9710168838500977,
+        "corrupt_conf": 2.6706591143010883e-06,
+        "patched_conf": 0.00017909992311615497,
+        "denom": 0.9710142131909834,
+        "frac_recovered": 0.0001816958615075936
+      },
+      {
+        "clean_conf": 0.1155250146985054,
+        "corrupt_conf": 7.237450063257711e-06,
+        "patched_conf": 5.5475084081990644e-06,
+        "denom": 0.11551777724844214,
+        "frac_recovered": -1.4629277807381261e-05
+      },
+      {
+        "clean_conf": 0.9998879432678223,
+        "corrupt_conf": 0.6786221265792847,
+        "patched_conf": 0.7270885705947876,
+        "denom": 0.3212658166885376,
+        "frac_recovered": 0.1508608806099356
+      },
+      {
+        "clean_conf": 0.9977516531944275,
+        "corrupt_conf": 0.9559327363967896,
+        "patched_conf": 0.9246811866760254,
+        "denom": 0.04181891679763794,
+        "frac_recovered": -0.7473065328781865
+      },
+      {
+        "clean_conf": 0.99998939037323,
+        "corrupt_conf": 0.00527404947206378,
+        "patched_conf": 0.2940625250339508,
+        "denom": 0.9947153409011662,
+        "frac_recovered": 0.29032273223036653
+      },
+      {
+        "clean_conf": 0.9712470173835754,
+        "corrupt_conf": 0.9595231413841248,
+        "patched_conf": 0.9201025366783142,
+        "denom": 0.011723875999450684,
+        "frac_recovered": -3.3624208160899673
+      },
+      {
+        "clean_conf": 0.5871012210845947,
+        "corrupt_conf": 7.708531484240666e-06,
+        "patched_conf": 0.0007979841320775449,
+        "denom": 0.5870935125531105,
+        "frac_recovered": 0.0013460813033968132
+      },
+      {
+        "clean_conf": 0.54350745677948,
+        "corrupt_conf": 0.833796501159668,
+        "patched_conf": 0.5055431723594666,
+        "denom": -0.290289044380188,
+        "frac_recovered": 1.1307809755654852
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 0.9997084736824036,
+        "patched_conf": 0.9999982118606567,
+        "denom": 0.0002911686897277832,
+        "frac_recovered": 0.9950870010235414
+      },
+      {
+        "clean_conf": 0.5184811949729919,
+        "corrupt_conf": 0.012963160872459412,
+        "patched_conf": 0.029534466564655304,
+        "denom": 0.5055180341005325,
+        "frac_recovered": 0.03278083980066347
+      },
+      {
+        "clean_conf": 0.9991565942764282,
+        "corrupt_conf": 8.46127477416303e-06,
+        "patched_conf": 0.0006266871350817382,
+        "denom": 0.9991481330016541,
+        "frac_recovered": 0.0006187529555305207
+      },
+      {
+        "clean_conf": 0.999981164932251,
+        "corrupt_conf": 5.16009595230571e-06,
+        "patched_conf": 0.8260267376899719,
+        "denom": 0.9999760048362987,
+        "frac_recovered": 0.826041398592603
+      },
+      {
+        "clean_conf": 0.9999988079071045,
+        "corrupt_conf": 4.048473329021363e-06,
+        "patched_conf": 0.1930236965417862,
+        "denom": 0.9999947594337755,
+        "frac_recovered": 0.19302065960600653
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 8.776195272730547e-07,
+        "patched_conf": 0.0011800382053479552,
+        "denom": 0.9999981687061563,
+        "frac_recovered": 0.0011791627452141583
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 5.812364634039113e-07,
+        "patched_conf": 0.001572506851516664,
+        "denom": 0.9999973922056142,
+        "frac_recovered": 0.0015719297143227439
+      },
+      {
+        "clean_conf": 0.988244891166687,
+        "corrupt_conf": 0.6452434659004211,
+        "patched_conf": 0.9547974467277527,
+        "denom": 0.34300142526626587,
+        "frac_recovered": 0.9024859899256404
+      },
+      {
+        "clean_conf": 0.9985184073448181,
+        "corrupt_conf": 0.9995434880256653,
+        "patched_conf": 0.9995859265327454,
+        "denom": -0.001025080680847168,
+        "frac_recovered": -0.04140016280962903
+      },
+      {
+        "clean_conf": 0.9990379810333252,
+        "corrupt_conf": 0.0005027009174227715,
+        "patched_conf": 0.08174043893814087,
+        "denom": 0.9985352801159024,
+        "frac_recovered": 0.08135690309438905
+      },
+      {
+        "clean_conf": 0.9832346439361572,
+        "corrupt_conf": 0.9435730576515198,
+        "patched_conf": 0.9762394428253174,
+        "denom": 0.03966158628463745,
+        "frac_recovered": 0.8236278029668881
+      },
+      {
+        "clean_conf": 0.9998157620429993,
+        "corrupt_conf": 0.000113057998532895,
+        "patched_conf": 0.8636338114738464,
+        "denom": 0.9997027040444664,
+        "frac_recovered": 0.8637775510477208
+      },
+      {
+        "clean_conf": 0.0021997939329594374,
+        "corrupt_conf": 0.0009983007330447435,
+        "patched_conf": 5.213505937717855e-05,
+        "denom": 0.0012014931999146938,
+        "frac_recovered": -0.7874914928646645
+      },
+      {
+        "clean_conf": 0.8034820556640625,
+        "corrupt_conf": 0.9914548397064209,
+        "patched_conf": 0.99946528673172,
+        "denom": -0.1879727840423584,
+        "frac_recovered": -0.042614929954402185
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.82638961077464e-07,
+        "patched_conf": 0.9980916380882263,
+        "denom": 0.9999987021053016,
+        "frac_recovered": 0.9980923508680359
+      },
+      {
+        "clean_conf": 0.15644590556621552,
+        "corrupt_conf": 0.00016483223589602858,
+        "patched_conf": 0.0009644692181609571,
+        "denom": 0.1562810733303195,
+        "frac_recovered": 0.0051166591400021695
+      },
+      {
+        "clean_conf": 0.9999903440475464,
+        "corrupt_conf": 4.103368155483622e-06,
+        "patched_conf": 0.998197615146637,
+        "denom": 0.9999862406793909,
+        "frac_recovered": 0.9982072464320194
+      },
+      {
+        "clean_conf": 0.40091025829315186,
+        "corrupt_conf": 9.113506393987336e-07,
+        "patched_conf": 0.00010134947660844773,
+        "denom": 0.40090934694251246,
+        "frac_recovered": 0.0002505257777974708
+      },
+      {
+        "clean_conf": 0.9806011915206909,
+        "corrupt_conf": 6.484330697276164e-06,
+        "patched_conf": 0.0007951409206725657,
+        "denom": 0.9805947071899936,
+        "frac_recovered": 0.0008042635598506086
+      },
+      {
+        "clean_conf": 0.9877712726593018,
+        "corrupt_conf": 1.8361935872235335e-05,
+        "patched_conf": 0.07701120525598526,
+        "denom": 0.9877529107234295,
+        "frac_recovered": 0.07794747298058936
+      },
+      {
+        "clean_conf": 0.8950383067131042,
+        "corrupt_conf": 0.9898876547813416,
+        "patched_conf": 0.9864681959152222,
+        "denom": -0.0948493480682373,
+        "frac_recovered": 0.036051474635959854
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 0.0007457449100911617,
+        "patched_conf": 0.9993382096290588,
+        "denom": 0.9992542550899088,
+        "frac_recovered": 0.9993377157339384
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 2.555038236096152e-06,
+        "patched_conf": 0.8277370929718018,
+        "denom": 0.9999973257524744,
+        "frac_recovered": 0.8277367515065253
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.3092170547679416e-06,
+        "patched_conf": 0.9117355346679688,
+        "denom": 0.9999985715736557,
+        "frac_recovered": 0.911735527797961
+      },
+      {
+        "clean_conf": 0.22623030841350555,
+        "corrupt_conf": 2.7808880531665636e-06,
+        "patched_conf": 0.0016577538335695863,
+        "denom": 0.2262275275254524,
+        "frac_recovered": 0.0073155241699320705
+      },
+      {
+        "clean_conf": 0.9989880919456482,
+        "corrupt_conf": 0.07442785054445267,
+        "patched_conf": 0.9701589941978455,
+        "denom": 0.9245602414011955,
+        "frac_recovered": 0.9688185837365108
+      },
+      {
+        "clean_conf": 0.9980669617652893,
+        "corrupt_conf": 0.9998251795768738,
+        "patched_conf": 0.9981870055198669,
+        "denom": -0.0017582178115844727,
+        "frac_recovered": 0.9317241846904875
+      },
+      {
+        "clean_conf": 0.9977255463600159,
+        "corrupt_conf": 0.396145224571228,
+        "patched_conf": 0.9228971600532532,
+        "denom": 0.6015803217887878,
+        "frac_recovered": 0.8756136402795526
+      },
+      {
+        "clean_conf": 0.11440800875425339,
+        "corrupt_conf": 2.1190148800087627e-06,
+        "patched_conf": 9.738052176544443e-05,
+        "denom": 0.11440588973937338,
+        "frac_recovered": 0.0008326626111859251
+      }
+    ],
+    "5": [
+      {
+        "clean_conf": 0.999994158744812,
+        "corrupt_conf": 0.01906023733317852,
+        "patched_conf": 0.9960456490516663,
+        "denom": 0.9809339214116335,
+        "frac_recovered": 0.9959747444685534
+      },
+      {
+        "clean_conf": 0.7084962129592896,
+        "corrupt_conf": 0.9855072498321533,
+        "patched_conf": 0.9043960571289062,
+        "denom": -0.27701103687286377,
+        "frac_recovered": 0.29280852351191206
+      },
+      {
+        "clean_conf": 0.9962061643600464,
+        "corrupt_conf": 0.0007761984597891569,
+        "patched_conf": 0.4084930121898651,
+        "denom": 0.9954299659002572,
+        "frac_recovered": 0.40958864781746934
+      },
+      {
+        "clean_conf": 0.9971298575401306,
+        "corrupt_conf": 0.014882354065775871,
+        "patched_conf": 0.9541064500808716,
+        "denom": 0.9822475034743547,
+        "frac_recovered": 0.9561990157194812
+      },
+      {
+        "clean_conf": 0.20073413848876953,
+        "corrupt_conf": 0.004032258875668049,
+        "patched_conf": 0.9856041669845581,
+        "denom": 0.19670187961310148,
+        "frac_recovered": 4.990150119762819
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 4.96041707265249e-07,
+        "patched_conf": 0.9986875653266907,
+        "denom": 0.9999929474473674,
+        "frac_recovered": 0.9986941126277765
+      },
+      {
+        "clean_conf": 1.692784280749038e-05,
+        "corrupt_conf": 0.5948514342308044,
+        "patched_conf": 8.610194527136628e-06,
+        "denom": -0.594834506387997,
+        "frac_recovered": 1.0000139831300825
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.51907123735873e-06,
+        "patched_conf": 0.9999009370803833,
+        "denom": 0.9999934080451567,
+        "frac_recovered": 0.9999020093180391
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 1.736032572807744e-05,
+        "patched_conf": 0.999975323677063,
+        "denom": 0.9999806131163496,
+        "frac_recovered": 0.9999773497958685
+      },
+      {
+        "clean_conf": 0.31532323360443115,
+        "corrupt_conf": 0.001225300831720233,
+        "patched_conf": 0.9828594326972961,
+        "denom": 0.3140979327727109,
+        "frac_recovered": 3.125248622937964
+      },
+      {
+        "clean_conf": 0.9999512434005737,
+        "corrupt_conf": 3.9196038414957e-06,
+        "patched_conf": 0.9658236503601074,
+        "denom": 0.9999473237967322,
+        "frac_recovered": 0.965870609152804
+      },
+      {
+        "clean_conf": 0.999716579914093,
+        "corrupt_conf": 0.993343710899353,
+        "patched_conf": 0.9989259839057922,
+        "denom": 0.00637286901473999,
+        "frac_recovered": 0.8759434712258812
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 5.29601275047753e-05,
+        "patched_conf": 0.9999957084655762,
+        "denom": 0.999946563035337,
+        "frac_recovered": 0.9999961850988777
+      },
+      {
+        "clean_conf": 0.9196568727493286,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.13707078993320465,
+        "denom": 0.5101686418056488,
+        "frac_recovered": -0.5339752754036456
+      },
+      {
+        "clean_conf": 0.9987063407897949,
+        "corrupt_conf": 0.9996765851974487,
+        "patched_conf": 0.9999175071716309,
+        "denom": -0.0009702444076538086,
+        "frac_recovered": -0.24831060326821477
+      },
+      {
+        "clean_conf": 0.9999984502792358,
+        "corrupt_conf": 0.03935999423265457,
+        "patched_conf": 0.9999531507492065,
+        "denom": 0.9606384560465813,
+        "frac_recovered": 0.9999528443508126
+      },
+      {
+        "clean_conf": 0.9340134263038635,
+        "corrupt_conf": 0.7830493450164795,
+        "patched_conf": 0.7637901306152344,
+        "denom": 0.15096408128738403,
+        "frac_recovered": -0.12757481274358337
+      },
+      {
+        "clean_conf": 0.9768757820129395,
+        "corrupt_conf": 0.9229055643081665,
+        "patched_conf": 0.9989870190620422,
+        "denom": 0.05397021770477295,
+        "frac_recovered": 1.4096933084475465
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 5.106040248392674e-07,
+        "patched_conf": 0.9999988079071045,
+        "denom": 0.9999993701866856,
+        "frac_recovered": 0.9999989271157184
+      },
+      {
+        "clean_conf": 0.9994508624076843,
+        "corrupt_conf": 0.9979140162467957,
+        "patched_conf": 0.998544454574585,
+        "denom": 0.0015368461608886719,
+        "frac_recovered": 0.4102156376047161
+      },
+      {
+        "clean_conf": 2.9853977139282506e-06,
+        "corrupt_conf": 0.11218808591365814,
+        "patched_conf": 0.0005041506956331432,
+        "denom": -0.11218510051594421,
+        "frac_recovered": 0.99553269288333
+      },
+      {
+        "clean_conf": 0.9969643950462341,
+        "corrupt_conf": 0.7768816351890564,
+        "patched_conf": 0.8679310083389282,
+        "denom": 0.22008275985717773,
+        "frac_recovered": 0.41370515895455934
+      },
+      {
+        "clean_conf": 0.999606192111969,
+        "corrupt_conf": 0.9050228595733643,
+        "patched_conf": 0.9970449805259705,
+        "denom": 0.09458333253860474,
+        "frac_recovered": 0.9729211107575094
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 0.9996731281280518,
+        "patched_conf": 0.9999977350234985,
+        "denom": 0.0003255605697631836,
+        "frac_recovered": 0.9970706700842182
+      },
+      {
+        "clean_conf": 0.9981279969215393,
+        "corrupt_conf": 0.014097815379500389,
+        "patched_conf": 0.809299647808075,
+        "denom": 0.9840301815420389,
+        "frac_recovered": 0.8081071570207754
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.1555470337043516e-05,
+        "patched_conf": 0.9999996423721313,
+        "denom": 0.9999883253203734,
+        "frac_recovered": 0.9999997615786375
+      },
+      {
+        "clean_conf": 0.9495097398757935,
+        "corrupt_conf": 0.2019936740398407,
+        "patched_conf": 0.04817270115017891,
+        "denom": 0.7475160658359528,
+        "frac_recovered": -0.20577614304201294
+      },
+      {
+        "clean_conf": 0.9992656111717224,
+        "corrupt_conf": 0.6197432279586792,
+        "patched_conf": 0.9999175071716309,
+        "denom": 0.3795223832130432,
+        "frac_recovered": 1.001717674711013
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 5.4183483371161856e-06,
+        "patched_conf": 0.9999988079071045,
+        "denom": 0.9999935087680569,
+        "frac_recovered": 0.9999998807899366
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 0.00030703205266036093,
+        "patched_conf": 0.9994553923606873,
+        "denom": 0.9996920142730232,
+        "frac_recovered": 0.9994561785457577
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 3.904861785031244e-07,
+        "patched_conf": 0.9999973773956299,
+        "denom": 0.999999490304532,
+        "frac_recovered": 0.9999974966036435
+      },
+      {
+        "clean_conf": 0.9999669790267944,
+        "corrupt_conf": 7.498951890738681e-05,
+        "patched_conf": 0.9259925484657288,
+        "denom": 0.999891989507887,
+        "frac_recovered": 0.926017578561187
+      },
+      {
+        "clean_conf": 0.9999985694885254,
+        "corrupt_conf": 8.29427062853938e-06,
+        "patched_conf": 0.9979257583618164,
+        "denom": 0.9999902752178969,
+        "frac_recovered": 0.9979271687154584
+      },
+      {
+        "clean_conf": 0.9998028874397278,
+        "corrupt_conf": 0.19323691725730896,
+        "patched_conf": 0.9826924800872803,
+        "denom": 0.8065659701824188,
+        "frac_recovered": 0.9787861030777462
+      },
+      {
+        "clean_conf": 0.9999281167984009,
+        "corrupt_conf": 0.06627816706895828,
+        "patched_conf": 0.8941315412521362,
+        "denom": 0.9336499497294426,
+        "frac_recovered": 0.886684966269293
+      },
+      {
+        "clean_conf": 0.9998465776443481,
+        "corrupt_conf": 0.21834422647953033,
+        "patched_conf": 0.5798028111457825,
+        "denom": 0.7815023511648178,
+        "frac_recovered": 0.46251759080123483
+      },
+      {
+        "clean_conf": 0.9964445233345032,
+        "corrupt_conf": 2.1555228158831596e-05,
+        "patched_conf": 0.9981833100318909,
+        "denom": 0.9964229681063443,
+        "frac_recovered": 1.0017450287207772
+      },
+      {
+        "clean_conf": 0.999885082244873,
+        "corrupt_conf": 0.9912934899330139,
+        "patched_conf": 0.9996827840805054,
+        "denom": 0.00859159231185913,
+        "frac_recovered": 0.9764539381031337
+      },
+      {
+        "clean_conf": 0.9651020169258118,
+        "corrupt_conf": 0.0033404668793082237,
+        "patched_conf": 0.19624340534210205,
+        "denom": 0.9617615500465035,
+        "frac_recovered": 0.2005725207599186
+      },
+      {
+        "clean_conf": 0.9995232820510864,
+        "corrupt_conf": 0.9989894032478333,
+        "patched_conf": 0.9999548196792603,
+        "denom": 0.0005338788032531738,
+        "frac_recovered": 1.8083063525734062
+      },
+      {
+        "clean_conf": 3.5460984690871555e-06,
+        "corrupt_conf": 0.9745261669158936,
+        "patched_conf": 0.0011611233931034803,
+        "denom": -0.9745226208174245,
+        "frac_recovered": 0.9988121596462651
+      },
+      {
+        "clean_conf": 0.9984357953071594,
+        "corrupt_conf": 3.280673627159558e-05,
+        "patched_conf": 0.25286978483200073,
+        "denom": 0.9984029885708878,
+        "frac_recovered": 0.2532414075178596
+      },
+      {
+        "clean_conf": 0.9894724488258362,
+        "corrupt_conf": 0.7965558171272278,
+        "patched_conf": 0.9985345602035522,
+        "denom": 0.1929166316986084,
+        "frac_recovered": 1.0469742359584304
+      },
+      {
+        "clean_conf": 0.36824098229408264,
+        "corrupt_conf": 4.868438736593816e-07,
+        "patched_conf": 0.9711939096450806,
+        "denom": 0.368240495450209,
+        "frac_recovered": 2.637388974870433
+      },
+      {
+        "clean_conf": 0.9970199465751648,
+        "corrupt_conf": 0.9928923845291138,
+        "patched_conf": 0.999923825263977,
+        "denom": 0.004127562046051025,
+        "frac_recovered": 1.7035336250342965
+      },
+      {
+        "clean_conf": 0.9985176920890808,
+        "corrupt_conf": 0.8585501909255981,
+        "patched_conf": 0.9999200105667114,
+        "denom": 0.13996750116348267,
+        "frac_recovered": 1.0100188862841288
+      },
+      {
+        "clean_conf": 0.9821453094482422,
+        "corrupt_conf": 2.631292090882198e-06,
+        "patched_conf": 0.9892657995223999,
+        "denom": 0.9821426781561513,
+        "frac_recovered": 1.0072499548512905
+      },
+      {
+        "clean_conf": 0.9996583461761475,
+        "corrupt_conf": 3.8860791391925886e-05,
+        "patched_conf": 0.9980687499046326,
+        "denom": 0.9996194853847555,
+        "frac_recovered": 0.998409798633624
+      },
+      {
+        "clean_conf": 0.9481333494186401,
+        "corrupt_conf": 0.5032225847244263,
+        "patched_conf": 0.976473331451416,
+        "denom": 0.44491076469421387,
+        "frac_recovered": 1.0636981261899876
+      },
+      {
+        "clean_conf": 0.9998337030410767,
+        "corrupt_conf": 0.4273855686187744,
+        "patched_conf": 0.7647784948348999,
+        "denom": 0.5724481344223022,
+        "frac_recovered": 0.5893860175762691
+      },
+      {
+        "clean_conf": 0.997793436050415,
+        "corrupt_conf": 0.001988030271604657,
+        "patched_conf": 0.9862986207008362,
+        "denom": 0.9958054057788104,
+        "frac_recovered": 0.9884567654655491
+      },
+      {
+        "clean_conf": 4.7650872147642076e-05,
+        "corrupt_conf": 0.9961651563644409,
+        "patched_conf": 0.002493053674697876,
+        "denom": -0.9961175054922933,
+        "frac_recovered": 0.9975450659294038
+      },
+      {
+        "clean_conf": 0.7593162059783936,
+        "corrupt_conf": 3.672240382002201e-06,
+        "patched_conf": 0.9981497526168823,
+        "denom": 0.7593125337380116,
+        "frac_recovered": 1.3145391864700793
+      },
+      {
+        "clean_conf": 0.9961769580841064,
+        "corrupt_conf": 9.541969120618887e-06,
+        "patched_conf": 0.9998962879180908,
+        "denom": 0.9961674161149858,
+        "frac_recovered": 1.0037336393198741
+      },
+      {
+        "clean_conf": 0.9961330890655518,
+        "corrupt_conf": 2.093929197144462e-06,
+        "patched_conf": 0.999970555305481,
+        "denom": 0.9961309951363546,
+        "frac_recovered": 1.0038523710823835
+      },
+      {
+        "clean_conf": 0.9949100613594055,
+        "corrupt_conf": 4.88206922000245e-07,
+        "patched_conf": 0.7139473557472229,
+        "denom": 0.9949095731524835,
+        "frac_recovered": 0.717599756607105
+      },
+      {
+        "clean_conf": 0.9680280685424805,
+        "corrupt_conf": 0.7365713715553284,
+        "patched_conf": 0.9996023774147034,
+        "denom": 0.2314566969871521,
+        "frac_recovered": 1.1364156202141584
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 3.010199861819274e-06,
+        "patched_conf": 0.9999967813491821,
+        "denom": 0.9999948440329263,
+        "frac_recovered": 0.9999989271108622
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 2.8819241038036125e-07,
+        "patched_conf": 0.9999675750732422,
+        "denom": 0.999999354179721,
+        "frac_recovered": 0.9999679326804011
+      },
+      {
+        "clean_conf": 0.9999986886978149,
+        "corrupt_conf": 4.429557975527132e-06,
+        "patched_conf": 0.9999967813491821,
+        "denom": 0.9999942591398394,
+        "frac_recovered": 0.9999980926404173
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.831012003909564e-06,
+        "patched_conf": 0.9998667240142822,
+        "denom": 0.9999934537322588,
+        "frac_recovered": 0.9998674384022358
+      },
+      {
+        "clean_conf": 0.9998611211776733,
+        "corrupt_conf": 0.9989187717437744,
+        "patched_conf": 0.9996547698974609,
+        "denom": 0.0009423494338989258,
+        "frac_recovered": 0.7810246679316888
+      },
+      {
+        "clean_conf": 0.998540997505188,
+        "corrupt_conf": 0.30325019359588623,
+        "patched_conf": 0.9986294507980347,
+        "denom": 0.6952908039093018,
+        "frac_recovered": 1.0001272176941638
+      },
+      {
+        "clean_conf": 0.00935766939073801,
+        "corrupt_conf": 6.875675899209455e-05,
+        "patched_conf": 0.6970150470733643,
+        "denom": 0.009288912631745916,
+        "frac_recovered": 75.02991124412979
+      },
+      {
+        "clean_conf": 0.9971494078636169,
+        "corrupt_conf": 0.9905297160148621,
+        "patched_conf": 0.9998854398727417,
+        "denom": 0.006619691848754883,
+        "frac_recovered": 1.4133171258779038
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 0.0005568381166085601,
+        "patched_conf": 0.9999994039535522,
+        "denom": 0.9994430426741019,
+        "frac_recovered": 0.9999995228971158
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 4.603443812811747e-07,
+        "patched_conf": 0.9999995231628418,
+        "denom": 0.9999993012370396,
+        "frac_recovered": 0.9999997615812543
+      },
+      {
+        "clean_conf": 0.999967098236084,
+        "corrupt_conf": 0.010724429041147232,
+        "patched_conf": 0.9957238435745239,
+        "denom": 0.9892426691949368,
+        "frac_recovered": 0.9957106028746078
+      },
+      {
+        "clean_conf": 0.15067258477210999,
+        "corrupt_conf": 3.773506591642217e-07,
+        "patched_conf": 0.9911928772926331,
+        "denom": 0.15067220742145082,
+        "frac_recovered": 6.578469360108813
+      },
+      {
+        "clean_conf": 0.07867904007434845,
+        "corrupt_conf": 7.315766197280027e-07,
+        "patched_conf": 0.9861080050468445,
+        "denom": 0.07867830849772872,
+        "frac_recovered": 12.533407139767013
+      },
+      {
+        "clean_conf": 0.041817788034677505,
+        "corrupt_conf": 1.7786189232538163e-07,
+        "patched_conf": 0.9832793474197388,
+        "denom": 0.04181761017278518,
+        "frac_recovered": 23.51351895756498
+      },
+      {
+        "clean_conf": 0.9834596514701843,
+        "corrupt_conf": 0.4625832140445709,
+        "patched_conf": 0.9769495725631714,
+        "denom": 0.5208764374256134,
+        "frac_recovered": 0.9875016828574769
+      },
+      {
+        "clean_conf": 0.94028240442276,
+        "corrupt_conf": 8.817521006676543e-07,
+        "patched_conf": 0.9961131811141968,
+        "denom": 0.9402815226706593,
+        "frac_recovered": 1.0593766604419301
+      },
+      {
+        "clean_conf": 0.984900712966919,
+        "corrupt_conf": 0.9997243285179138,
+        "patched_conf": 0.9991076588630676,
+        "denom": -0.014823615550994873,
+        "frac_recovered": 0.04160048894446701
+      },
+      {
+        "clean_conf": 0.9842574596405029,
+        "corrupt_conf": 0.4373839497566223,
+        "patched_conf": 0.9019273519515991,
+        "denom": 0.5468735098838806,
+        "frac_recovered": 0.8494531071611328
+      },
+      {
+        "clean_conf": 0.4191018342971802,
+        "corrupt_conf": 5.775332851953863e-07,
+        "patched_conf": 0.9713629484176636,
+        "denom": 0.419101256763895,
+        "frac_recovered": 2.317727172628369
+      },
+      {
+        "clean_conf": 0.9999568462371826,
+        "corrupt_conf": 2.4608892999822274e-05,
+        "patched_conf": 0.9304044246673584,
+        "denom": 0.9999322373441828,
+        "frac_recovered": 0.9304428650539808
+      },
+      {
+        "clean_conf": 0.2138550579547882,
+        "corrupt_conf": 0.00027115261764265597,
+        "patched_conf": 0.9645546078681946,
+        "denom": 0.21358390533714555,
+        "frac_recovered": 4.514775838228144
+      },
+      {
+        "clean_conf": 0.9997836947441101,
+        "corrupt_conf": 0.9893823862075806,
+        "patched_conf": 0.9991664886474609,
+        "denom": 0.010401308536529541,
+        "frac_recovered": 0.9406607260536948
+      },
+      {
+        "clean_conf": 0.9990099668502808,
+        "corrupt_conf": 0.00011217875726288185,
+        "patched_conf": 0.8241414427757263,
+        "denom": 0.9988977880930179,
+        "frac_recovered": 0.8249385210789248
+      },
+      {
+        "clean_conf": 0.058375369757413864,
+        "corrupt_conf": 0.10583889484405518,
+        "patched_conf": 0.5569721460342407,
+        "denom": -0.04746352508664131,
+        "frac_recovered": -9.504840830230659
+      },
+      {
+        "clean_conf": 0.9803354740142822,
+        "corrupt_conf": 0.00547399977222085,
+        "patched_conf": 0.9984908103942871,
+        "denom": 0.9748614742420614,
+        "frac_recovered": 1.0186235038102418
+      },
+      {
+        "clean_conf": 0.9999791383743286,
+        "corrupt_conf": 2.89216330884301e-07,
+        "patched_conf": 0.9992353916168213,
+        "denom": 0.9999788491579977,
+        "frac_recovered": 0.9992562375112898
+      },
+      {
+        "clean_conf": 0.9960846900939941,
+        "corrupt_conf": 0.7324880957603455,
+        "patched_conf": 0.9762732982635498,
+        "denom": 0.2635965943336487,
+        "frac_recovered": 0.9248420038182741
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 6.196860340423882e-05,
+        "patched_conf": 0.9999995231628418,
+        "denom": 0.9999380313965958,
+        "frac_recovered": 0.999999523133291
+      },
+      {
+        "clean_conf": 0.999998927116394,
+        "corrupt_conf": 4.92286631015304e-07,
+        "patched_conf": 0.99989914894104,
+        "denom": 0.999998434829763,
+        "frac_recovered": 0.9999002216684759
+      },
+      {
+        "clean_conf": 0.9999752044677734,
+        "corrupt_conf": 1.5507023363170447e-06,
+        "patched_conf": 0.9999731779098511,
+        "denom": 0.9999736537654371,
+        "frac_recovered": 0.999997973388684
+      },
+      {
+        "clean_conf": 0.9979658126831055,
+        "corrupt_conf": 6.0532797760970425e-06,
+        "patched_conf": 0.9968452453613281,
+        "denom": 0.9979597594033294,
+        "frac_recovered": 0.9988771417772924
+      },
+      {
+        "clean_conf": 0.23258322477340698,
+        "corrupt_conf": 1.0539408776821801e-06,
+        "patched_conf": 0.881780207157135,
+        "denom": 0.2325821708325293,
+        "frac_recovered": 3.7912585907162337
+      },
+      {
+        "clean_conf": 0.9999978542327881,
+        "corrupt_conf": 6.1802802520105615e-06,
+        "patched_conf": 0.9999957084655762,
+        "denom": 0.9999916739525361,
+        "frac_recovered": 0.9999978542149222
+      },
+      {
+        "clean_conf": 0.9999887943267822,
+        "corrupt_conf": 0.6840956211090088,
+        "patched_conf": 0.9965051412582397,
+        "denom": 0.31589317321777344,
+        "frac_recovered": 0.9889720533272148
+      },
+      {
+        "clean_conf": 0.9865307211875916,
+        "corrupt_conf": 0.9394267201423645,
+        "patched_conf": 0.9738429188728333,
+        "denom": 0.04710400104522705,
+        "frac_recovered": 0.730642789715972
+      },
+      {
+        "clean_conf": 0.9999997615814209,
+        "corrupt_conf": 1.069153938715317e-07,
+        "patched_conf": 0.9999773502349854,
+        "denom": 0.999999654666027,
+        "frac_recovered": 0.9999775886458251
+      },
+      {
+        "clean_conf": 0.9995371103286743,
+        "corrupt_conf": 0.450822651386261,
+        "patched_conf": 0.9961819648742676,
+        "denom": 0.5487144589424133,
+        "frac_recovered": 0.9938854436952993
+      },
+      {
+        "clean_conf": 0.9999995231628418,
+        "corrupt_conf": 0.0036481358110904694,
+        "patched_conf": 0.9975988268852234,
+        "denom": 0.9963513873517513,
+        "frac_recovered": 0.9975905124355783
+      },
+      {
+        "clean_conf": 0.9464777708053589,
+        "corrupt_conf": 2.636332283145748e-06,
+        "patched_conf": 0.9986279010772705,
+        "denom": 0.9464751344730757,
+        "frac_recovered": 1.0550993136242768
+      },
+      {
+        "clean_conf": 0.9999948740005493,
+        "corrupt_conf": 0.0010723235318437219,
+        "patched_conf": 0.9999982118606567,
+        "denom": 0.9989225504687056,
+        "frac_recovered": 1.0000033414603624
+      },
+      {
+        "clean_conf": 0.9980828762054443,
+        "corrupt_conf": 0.8745058178901672,
+        "patched_conf": 0.9962382316589355,
+        "denom": 0.1235770583152771,
+        "frac_recovered": 0.9850729207212343
+      },
+      {
+        "clean_conf": 0.9999092817306519,
+        "corrupt_conf": 0.059414081275463104,
+        "patched_conf": 0.9396560192108154,
+        "denom": 0.9404952004551888,
+        "frac_recovered": 0.9359345348166853
+      },
+      {
+        "clean_conf": 0.9525880217552185,
+        "corrupt_conf": 0.4094882309436798,
+        "patched_conf": 0.11697202920913696,
+        "denom": 0.5430997908115387,
+        "frac_recovered": -0.5386048875059298
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 8.440846613666508e-06,
+        "patched_conf": 0.9999960660934448,
+        "denom": 0.9999914399440968,
+        "frac_recovered": 0.99999618527008
+      },
+      {
+        "clean_conf": 0.9974059462547302,
+        "corrupt_conf": 0.007510352414101362,
+        "patched_conf": 0.9713095426559448,
+        "denom": 0.9898955938406289,
+        "frac_recovered": 0.9736372161254545
+      },
+      {
+        "clean_conf": 0.9132049083709717,
+        "corrupt_conf": 0.8779352307319641,
+        "patched_conf": 0.9563456773757935,
+        "denom": 0.03526967763900757,
+        "frac_recovered": 2.2231687923653984
+      },
+      {
+        "clean_conf": 0.9999164342880249,
+        "corrupt_conf": 0.10147520899772644,
+        "patched_conf": 0.993537962436676,
+        "denom": 0.8984412252902985,
+        "frac_recovered": 0.9929005129419702
+      },
+      {
+        "clean_conf": 0.9999934434890747,
+        "corrupt_conf": 0.01948966458439827,
+        "patched_conf": 0.9960499405860901,
+        "denom": 0.9805037789046764,
+        "frac_recovered": 0.9959780849520132
+      },
+      {
+        "clean_conf": 0.999969482421875,
+        "corrupt_conf": 0.9928406476974487,
+        "patched_conf": 0.9995311498641968,
+        "denom": 0.0071288347244262695,
+        "frac_recovered": 0.9385127339007708
+      },
+      {
+        "clean_conf": 0.997938334941864,
+        "corrupt_conf": 0.9999316930770874,
+        "patched_conf": 0.9986382126808167,
+        "denom": -0.0019933581352233887,
+        "frac_recovered": 0.6488951350058308
+      },
+      {
+        "clean_conf": 0.9995474219322205,
+        "corrupt_conf": 0.02157892845571041,
+        "patched_conf": 0.9951114058494568,
+        "denom": 0.97796849347651,
+        "frac_recovered": 0.9954640501075915
+      },
+      {
+        "clean_conf": 0.9999945163726807,
+        "corrupt_conf": 7.436138389493863e-07,
+        "patched_conf": 0.9999734163284302,
+        "denom": 0.9999937727588417,
+        "frac_recovered": 0.9999788998243536
+      },
+      {
+        "clean_conf": 0.9999518394470215,
+        "corrupt_conf": 5.636460969071777e-07,
+        "patched_conf": 0.9964109063148499,
+        "denom": 0.9999512758009246,
+        "frac_recovered": 0.9964588943302908
+      },
+      {
+        "clean_conf": 0.9998946189880371,
+        "corrupt_conf": 0.0005852272734045982,
+        "patched_conf": 0.9994427561759949,
+        "denom": 0.9993093917146325,
+        "frac_recovered": 0.9995478249120956
+      },
+      {
+        "clean_conf": 0.9967071413993835,
+        "corrupt_conf": 0.9877838492393494,
+        "patched_conf": 0.9978454113006592,
+        "denom": 0.00892329216003418,
+        "frac_recovered": 1.1275616533518582
+      },
+      {
+        "clean_conf": 0.9998177886009216,
+        "corrupt_conf": 0.07410693913698196,
+        "patched_conf": 0.8886488676071167,
+        "denom": 0.9257108494639397,
+        "frac_recovered": 0.879909670435233
+      },
+      {
+        "clean_conf": 0.9710168838500977,
+        "corrupt_conf": 2.6706591143010883e-06,
+        "patched_conf": 0.9999006986618042,
+        "denom": 0.9710142131909834,
+        "frac_recovered": 1.0297460268030345
+      },
+      {
+        "clean_conf": 0.1155250146985054,
+        "corrupt_conf": 7.237450063257711e-06,
+        "patched_conf": 0.9122561812400818,
+        "denom": 0.11551777724844214,
+        "frac_recovered": 7.897043775591873
+      },
+      {
+        "clean_conf": 0.9998879432678223,
+        "corrupt_conf": 0.6786221265792847,
+        "patched_conf": 0.9891422986984253,
+        "denom": 0.3212658166885376,
+        "frac_recovered": 0.9665521695393609
+      },
+      {
+        "clean_conf": 0.9977516531944275,
+        "corrupt_conf": 0.9559327363967896,
+        "patched_conf": 0.9918344020843506,
+        "denom": 0.04181891679763794,
+        "frac_recovered": 0.8585030038269397
+      },
+      {
+        "clean_conf": 0.99998939037323,
+        "corrupt_conf": 0.00527404947206378,
+        "patched_conf": 0.9410321116447449,
+        "denom": 0.9947153409011662,
+        "frac_recovered": 0.9407294968678451
+      },
+      {
+        "clean_conf": 0.9712470173835754,
+        "corrupt_conf": 0.9595231413841248,
+        "patched_conf": 0.9576742649078369,
+        "denom": 0.011723875999450684,
+        "frac_recovered": -0.15770181093475144
+      },
+      {
+        "clean_conf": 0.5871012210845947,
+        "corrupt_conf": 7.708531484240666e-06,
+        "patched_conf": 0.9981219172477722,
+        "denom": 0.5870935125531105,
+        "frac_recovered": 1.7000940861631393
+      },
+      {
+        "clean_conf": 0.54350745677948,
+        "corrupt_conf": 0.833796501159668,
+        "patched_conf": 0.9852982759475708,
+        "denom": -0.290289044380188,
+        "frac_recovered": -0.5218997331138782
+      },
+      {
+        "clean_conf": 0.9999996423721313,
+        "corrupt_conf": 0.9997084736824036,
+        "patched_conf": 0.9999960660934448,
+        "denom": 0.0002911686897277832,
+        "frac_recovered": 0.9877175025588536
+      },
+      {
+        "clean_conf": 0.5184811949729919,
+        "corrupt_conf": 0.012963160872459412,
+        "patched_conf": 0.03253074735403061,
+        "denom": 0.5055180341005325,
+        "frac_recovered": 0.03870798895708592
+      },
+      {
+        "clean_conf": 0.9991565942764282,
+        "corrupt_conf": 8.46127477416303e-06,
+        "patched_conf": 0.6990982890129089,
+        "denom": 0.9991481330016541,
+        "frac_recovered": 0.699685867037473
+      },
+      {
+        "clean_conf": 0.999981164932251,
+        "corrupt_conf": 5.16009595230571e-06,
+        "patched_conf": 0.9942315816879272,
+        "denom": 0.9999760048362987,
+        "frac_recovered": 0.9942502787901746
+      },
+      {
+        "clean_conf": 0.9999988079071045,
+        "corrupt_conf": 4.048473329021363e-06,
+        "patched_conf": 0.9999973773956299,
+        "denom": 0.9999947594337755,
+        "frac_recovered": 0.9999985694810286
+      },
+      {
+        "clean_conf": 0.9999990463256836,
+        "corrupt_conf": 8.776195272730547e-07,
+        "patched_conf": 0.9999995231628418,
+        "denom": 0.9999981687061563,
+        "frac_recovered": 1.0000004768380315
+      },
+      {
+        "clean_conf": 0.9999979734420776,
+        "corrupt_conf": 5.812364634039113e-07,
+        "patched_conf": 0.9995864033699036,
+        "denom": 0.9999973922056142,
+        "frac_recovered": 0.999588428854533
+      },
+      {
+        "clean_conf": 0.988244891166687,
+        "corrupt_conf": 0.6452434659004211,
+        "patched_conf": 0.9974427223205566,
+        "denom": 0.34300142526626587,
+        "frac_recovered": 1.026815722840596
+      },
+      {
+        "clean_conf": 0.9985184073448181,
+        "corrupt_conf": 0.9995434880256653,
+        "patched_conf": 0.9996428489685059,
+        "denom": -0.001025080680847168,
+        "frac_recovered": -0.0969298755669264
+      },
+      {
+        "clean_conf": 0.9990379810333252,
+        "corrupt_conf": 0.0005027009174227715,
+        "patched_conf": 0.9599583745002747,
+        "denom": 0.9985352801159024,
+        "frac_recovered": 0.9608630688256559
+      },
+      {
+        "clean_conf": 0.9832346439361572,
+        "corrupt_conf": 0.9435730576515198,
+        "patched_conf": 0.9444135427474976,
+        "denom": 0.03966158628463745,
+        "frac_recovered": 0.021191414028322347
+      },
+      {
+        "clean_conf": 0.9998157620429993,
+        "corrupt_conf": 0.000113057998532895,
+        "patched_conf": 0.9995889067649841,
+        "denom": 0.9997027040444664,
+        "frac_recovered": 0.9997730772587716
+      },
+      {
+        "clean_conf": 0.0021997939329594374,
+        "corrupt_conf": 0.0009983007330447435,
+        "patched_conf": 0.004098755307495594,
+        "denom": 0.0012014931999146938,
+        "frac_recovered": 2.5805011419714927
+      },
+      {
+        "clean_conf": 0.8034820556640625,
+        "corrupt_conf": 0.9914548397064209,
+        "patched_conf": 0.8796548843383789,
+        "denom": -0.1879727840423584,
+        "frac_recovered": 0.5947667154988172
+      },
+      {
+        "clean_conf": 0.9999992847442627,
+        "corrupt_conf": 5.82638961077464e-07,
+        "patched_conf": 0.9999951124191284,
+        "denom": 0.9999987021053016,
+        "frac_recovered": 0.9999958276694505
+      },
+      {
+        "clean_conf": 0.15644590556621552,
+        "corrupt_conf": 0.00016483223589602858,
+        "patched_conf": 0.99342280626297,
+        "denom": 0.1562810733303195,
+        "frac_recovered": 6.355587102525843
+      },
+      {
+        "clean_conf": 0.9999903440475464,
+        "corrupt_conf": 4.103368155483622e-06,
+        "patched_conf": 0.9999880790710449,
+        "denom": 0.9999862406793909,
+        "frac_recovered": 0.9999977349923336
+      },
+      {
+        "clean_conf": 0.40091025829315186,
+        "corrupt_conf": 9.113506393987336e-07,
+        "patched_conf": 0.9933468103408813,
+        "denom": 0.40090934694251246,
+        "frac_recovered": 2.477731952537092
+      },
+      {
+        "clean_conf": 0.9806011915206909,
+        "corrupt_conf": 6.484330697276164e-06,
+        "patched_conf": 0.9993259906768799,
+        "denom": 0.9805947071899936,
+        "frac_recovered": 1.0190953500145306
+      },
+      {
+        "clean_conf": 0.9877712726593018,
+        "corrupt_conf": 1.8361935872235335e-05,
+        "patched_conf": 0.9993281364440918,
+        "denom": 0.9877529107234295,
+        "frac_recovered": 1.0117001566478057
+      },
+      {
+        "clean_conf": 0.8950383067131042,
+        "corrupt_conf": 0.9898876547813416,
+        "patched_conf": 0.9594656229019165,
+        "denom": -0.0948493480682373,
+        "frac_recovered": 0.3207405480271575
+      },
+      {
+        "clean_conf": 1.0,
+        "corrupt_conf": 0.0007457449100911617,
+        "patched_conf": 0.9999997615814209,
+        "denom": 0.9992542550899088,
+        "frac_recovered": 0.9999997614034888
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 2.555038236096152e-06,
+        "patched_conf": 0.9999970197677612,
+        "denom": 0.9999973257524744,
+        "frac_recovered": 0.9999971389693997
+      },
+      {
+        "clean_conf": 0.9999998807907104,
+        "corrupt_conf": 1.3092170547679416e-06,
+        "patched_conf": 0.9999988079071045,
+        "denom": 0.9999985715736557,
+        "frac_recovered": 0.9999989271148615
+      },
+      {
+        "clean_conf": 0.22623030841350555,
+        "corrupt_conf": 2.7808880531665636e-06,
+        "patched_conf": 0.9299452900886536,
+        "denom": 0.2262275275254524,
+        "frac_recovered": 4.110651428553382
+      },
+      {
+        "clean_conf": 0.9989880919456482,
+        "corrupt_conf": 0.07442785054445267,
+        "patched_conf": 0.99813312292099,
+        "denom": 0.9245602414011955,
+        "frac_recovered": 0.9990752695320724
+      },
+      {
+        "clean_conf": 0.9980669617652893,
+        "corrupt_conf": 0.9998251795768738,
+        "patched_conf": 0.9999319314956665,
+        "denom": -0.0017582178115844727,
+        "frac_recovered": -0.06071598074445725
+      },
+      {
+        "clean_conf": 0.9977255463600159,
+        "corrupt_conf": 0.396145224571228,
+        "patched_conf": 0.936447024345398,
+        "denom": 0.6015803217887878,
+        "frac_recovered": 0.8981374227261832
+      },
+      {
+        "clean_conf": 0.11440800875425339,
+        "corrupt_conf": 2.1190148800087627e-06,
+        "patched_conf": 0.9732949137687683,
+        "denom": 0.11440588973937338,
+        "frac_recovered": 8.507366158955055
+      }
+    ]
+  },
+  "n_pairs": 150,
+  "layers": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "near_dtz_max": 5,
+  "min_denom": 0.05
+}
