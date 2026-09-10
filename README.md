@@ -129,7 +129,7 @@ in the Appendix.
   `checkpoints_krk/best.pt`) are on Drive instead, not in the repository. You can find
   the link in the section above.
 
-## Design decisions and known criticalities, and where they are addressed
+## Design decisions, known criticalities and where they are addressed
 
 - **Shared KPK/KRK vocabulary.** `tokenizer.py`: built from pure move
   geometry, 1859 tokens (including bishop/knight geometry, needed only for
