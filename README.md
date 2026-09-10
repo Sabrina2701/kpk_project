@@ -39,7 +39,7 @@ It's a public folder.
 ## Setup
 
 ```bash
-git clone https://github.com/<user>/<repo>.git kpk_project
+git clone https://github.com/Sabrina2701/kpk_project.git kpk_project
 cd kpk_project
 pip install -r requirements.txt --quiet
 ```
