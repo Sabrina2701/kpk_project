@@ -126,8 +126,8 @@ in the Appendix.
 - **Without regenerating**: the JSON files in `results/` are already in
   this repository; the checkpoints
   (`checkpoints/best.pt`, `checkpoints_multitask/best.pt`,
-  `checkpoints_krk/best.pt`) are on Drive instead, not in the repository —
-  contact me for read-only access to the folder.
+  `checkpoints_krk/best.pt`) are on Drive instead, not in the repository. You can find
+  the link in the section above.
 
 ## Design decisions and known criticalities, and where they are addressed
 
