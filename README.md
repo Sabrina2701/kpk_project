@@ -29,6 +29,8 @@ kpk_project/
 ├── merge_models.py               M6 (KPK/KRK weight merging)
 ├── test_tokenizer.py             tokenizer unit tests
 ├── requirements.txt
+├── notebook/                     notebook from Google Colab
+├── report/                       pdf of the report
 └── results/                      run outputs (JSON files)
 ```
 
